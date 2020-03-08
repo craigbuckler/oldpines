@@ -1,0 +1,19 @@
+// Global Sass variables
+
+// fonts
+$font-main: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+$font-size-old: 130%;
+$font-size-rwd: 1.3rem;
+
+// responsive breakpoints
+$breakpoint: (
+	'small'		: 30rem,
+	'medium'	: 56rem,
+	'large'		: 70rem
+);
+
+// colours
+$color-back: #fff;
+$color-fore: #334;
+$color-logo: #4CA93E;
+$color-menu: #6f6e6e;

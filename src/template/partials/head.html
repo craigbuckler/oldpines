@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="<%= language %>" itemscope itemtype="http://schema.org/WebPage">
+<head>
+<meta charset="UTF-8">
+<title><%= title %><% if (title !== name) { %> | <%= name %><% } %></title>
+
+<!-- styles -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="<%- root %>css/main-<%- versionFile %>.css">
+
+<!-- mobile settings -->
+<link rel="manifest" href="<%- rootURL %>manifest.webmanifest">
+<meta name="theme-color" content="<%= themeColor %>">
+
+<!-- icons -->
+<link rel="icon" sizes="192x192" href="<%- rootURL %>images/icons/optimalworks-192.png">
+<link rel="icon" sizes="152x152" href="<%- rootURL %>images/icons/optimalworks-152.png">
+<link rel="icon" sizes="120x120" href="<%- rootURL %>images/icons/optimalworks-120.png">
+<link rel="icon" sizes="76x76" href="<%- rootURL %>images/icons/optimalworks-076.png">
+
+<!-- iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="<%= name %>">
+<link rel="apple-touch-icon" href="<%- rootURL %>images/icons/optimalworks-192.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="<%= themeColor %>">
+
+<!-- Windows -->
+<meta name="msapplication-TileColor" content="<%= themeColor %>">
+<meta name="msapplication-TileImage" content="<%- rootURL %>images/icons/optimalworks-310.png">
+
+<!-- favicon -->
+<link rel="shortcut icon" href="<%- rootURL %>favicon.png">
+<link rel="shortcut icon" href="<%- rootURL %>favicon.ico">
+
+<!-- page information -->
+<meta name="application-name" content="<%= name %>">
+<meta name="description" content="<%= description %>">
+<meta name="keywords" content="<%= keywords %>">
+<meta name="page-topic" content="<%= topic %>">
+<meta name="author" content="<%= author %>">
+<meta name="owner" content="<%= author %>">
+<meta name="revisit-after" content="7 days" />
+
+<!-- indexing -->
+<% if (devBuild || private) { %>
+  <meta name="robots" content="noindex, nofollow">
+<% } else { %>
+  <meta name="robots" content="index, follow">
+<% } %>
+
+<!-- Schema.org -->
+<meta itemprop="name" content="<%= title %>">
+<meta itemprop="description" content="<%= description %>">
+<meta itemprop="keywords" content="<%= keywords %>">
+<meta itemprop="about" content="<%= topic %>">
+<meta itemprop="author" content="<%= author %>">
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="<%= name %>">
+<meta property="og:url" content="<%- rootURL %><%= url %>">
+<meta property="og:title" content="<%= title %>">
+<meta property="og:description" content="<%= description %>">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="<%= language %>">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+
+<% if (twitter) { %>
+  <meta property="twitter:site" content="<%= twitter %>">
+  <meta property="twitter:creator" content="<%= twitter %>">
+<% } %>
+
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="<%= title %>">
+<meta property="twitter:description" content="<%= description %>">
+
+<% if (hero) { %>
+  <meta itemprop="primaryImageOfPage" content="<%- imagecdn %>f_auto/<%- hero %>">
+  <meta property="og:image" content="<%- imagecdn %>f_auto/<%- hero %>">
+  <meta property="twitter:image" content="<%- imagecdn %>f_auto/<%- hero %>">
+<% } %>
+
+</head>
+<body<%- (menu ? ' id="' + menu + '"' : '') %>>

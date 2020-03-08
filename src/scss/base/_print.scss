@@ -1,0 +1,19 @@
+// print styling
+@media print {
+
+  *, footer a:link, footer a:visited {
+    color: #000 !important;
+    background-color: transparent !important;
+  }
+
+	html, body {
+		width: 100%;
+    font-size: 100%;
+    display: block;
+  }
+
+  header {
+    display: none !important;
+  }
+
+}

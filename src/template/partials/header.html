@@ -1,0 +1,18 @@
+<header>
+
+  <% if (hero && herop) { %>
+    <picture>
+      <source
+        media="(max-aspect-ratio:5/4)"
+        srcset="<%- imagecdn %>f_auto,c_scale,w_250/<%- herop %> 250w, <%- imagecdn %>f_auto/<%- herop %> 500w"
+      />
+      <img
+        src="<%- imagecdn %>f_auto,c_scale,w_400/<%- hero %>"
+        srcset="<%- imagecdn %>f_auto,c_scale,w_800/<%- hero %> 800w, <%- imagecdn %>f_auto/<%- hero %> 1200w"
+        alt="<%= hero.replace(/.+\/([^/].+)$/, '$1').trim(); %>" />
+    </picture>
+  <% } %>
+
+  <h1><%- title %></h1>
+
+</header>
