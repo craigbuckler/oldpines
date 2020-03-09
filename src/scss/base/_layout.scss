@@ -1,4 +1,30 @@
+$pad-horz: 3vw;
+
+.content {
+  width: 42em;
+  max-width: 100%;
+  padding: 0 $pad-horz;
+  margin: 0 auto;
+}
+
 main {
-  position: relative;
-  background-color: $color-back;
+
+  @media (min-height: $respondH) {
+    margin-top: -5em;
+  }
+
+  .content {
+    background-color: $color-back;
+    padding: 1em $pad-horz 3em;
+  }
+
+}
+
+.full {
+  display: none;
+
+  @include respond('small') {
+    display: unset;
+  }
+
 }

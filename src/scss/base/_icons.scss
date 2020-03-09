@@ -5,12 +5,18 @@
   }
 }
 
-.icon:before {
+.icon, .icon:before {
   display: inline-block;
+  vertical-align: sub;
+  white-space: nowrap;
+  color: inherit;
+}
+
+.icon:before {
   content: ' ';
-  width: 2em;
+  width: 1.62em;
   height: 1em;
-  vertical-align: middle;
+  font-weight: normal;
 }
 
 @include icon('bookmark');

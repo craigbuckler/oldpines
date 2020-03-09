@@ -1,37 +1,48 @@
-<nav id="menu">
+<nav id="main">
 
-  <p id="logo"><a href="<%- root %>">Old Pines</a></p>
+  <section class="bar">
 
-  <%
-    let navHTML = navGenerate(nav);
-    if (navHTML) navHTML = '<p id="menuopen"><a href="#menu" class="icon menu">menu</a></p>' + navHTML;
+      <ul class="content">
+        <li class="full"><a href="[root]location/" class="icon location" tabindex="1">Spean Bridge, Scotland</a></li>
+        <li><a href="#" class="icon email" tabindex="1">enquiries {at} oldpines dot co dot uk</a></li>
+        <li><a href="tel:+44-1397-712324" class="icon contact" tabindex="1">+44 1397 712324</a></li>
+      </ul>
 
-    function navGenerate(navSet) {
+  </section>
 
-      let navHTML = '', level = 0;
-      for (let p = 0; p < navSet.length; p++) {
+  <div class="content">
 
-        let
-          page = navSet[p],
-          open = navlist[page.level] === page.item,
-          active = open && !navlist[page.level+1];
+    <p id="logo"><a href="<%- root %>" tabindex="1"><img src="<%- imagecdn %>f_auto/v1583684035/old-pines-logo" alt="<%= name %>" /></a></p>
 
-        level = page.level;
+    <%
+      let navHTML = navGenerate(nav);
+      if (navHTML) navHTML = '<p id="menuopen"><label for="menushow" class="icon menu" tabindex="1">menu</label></p>' + navHTML;
 
-        if (!page.private) navHTML +=
-          '<li class="icon ' + page.menu.toLowerCase() + (open ? ' open' + (active ? ' active' : '') : '') + '">' +
-          (page.child.length && !page.nomenu ? '<a href="#open" class="opener">sub-menu</a>' : '') +
-          (active ? '<strong>' : '<a href="' + root + page.url + '">') +
-          page.menu +
-          (active ? '</strong>' : '</a>') +
-          (page.nomenu ? '' : navGenerate(page.child)) +
-          '</li>';
+      function navGenerate(navSet) {
+
+        let navHTML = '', level = 0;
+        for (let p = 0; p < navSet.length; p++) {
+
+          let
+            page = navSet[p],
+            open = navlist[page.level] === page.item,
+            active = open && !navlist[page.level+1];
+
+          level = page.level;
+
+          if (!page.private) navHTML +=
+            '<li' + (active ? ' class="active"' : '') + '>' +
+            '<' + (active ? 'strong' : 'a href="' + root + page.url + '"') + ' class="icon ' + page.menu.toLowerCase() + '">' +
+            page.menu +
+            (active ? '</strong>' : '</a>') +
+            '</li>';
+        }
+
+        return navHTML ? '<ul' + (level ? '' : ' id="menu"') + '><li id="menuclose"><label for="menushow" class="icon close" tabindex="1">close</label></li>' + navHTML + '</ul>' : '';
       }
+    %>
 
-      return navHTML ? '<ul' + (level ? '' : ' id="menu"') + '>' + navHTML + '</ul>' : navHTML;
-    }
-  %>
+    <%- navHTML %>
 
-  <%- navHTML %>
-
+  </div>
 </nav>

@@ -1,7 +1,10 @@
 // page footer
 footer {
 
-  position: relative;
-  background-color: $color-menu;
+  .content {
+    border-top: 3px solid $color-bar;
+    padding: 1em $pad-horz;
+    background-color: rgba($color-back, 0.8);
+  }
 
 }

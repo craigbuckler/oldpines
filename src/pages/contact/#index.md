@@ -1,5 +1,5 @@
 ---
-title: Contact Old Pines Hotel &amp; Restaurant
+title: Contact us
 menu: contact
 description: Contact Old Pines to reserve a dining table or book a room for your next vacation.
 hero:  v1583683270/hero/old-pines-hotel

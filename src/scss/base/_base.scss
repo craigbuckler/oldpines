@@ -1,6 +1,6 @@
 // Base styles
 :root {
-  font-size: $font-size-rwd;
+  font-size: $font-size;
 }
 
 html, body {
@@ -11,16 +11,16 @@ html, body {
 
 body {
   font-family: $font-main;
-  font-size: 100%;
+  font-size: 1rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.62;
   @include reset;
   color: $color-fore;
   background-color: $color-back;
   overscroll-behavior: none;
 }
 
-table, input, output, textarea, select, option, pre, button {
+table, input, output, textarea, select, option, button {
   font-family: $font-main;
   font-size: 1em;
   font-weight: 300;
@@ -28,22 +28,26 @@ table, input, output, textarea, select, option, pre, button {
 
 h1, h2 {
   clear: both;
-  font-size: 1.8rem;
-  font-weight: 400;
+  font-size: 2.62rem;
+  font-weight: 300;
   line-height: 1;
   letter-spacing: -0.03em;
   padding: 0;
   margin: 1em 0 0 0;
 }
 
+h1:first-child {
+  margin: 0;
+}
+
 h2 {
-  font-size: 1.4rem;
-  margin-top: 2em;
+  font-size: 1.62rem;
+  margin-top: 1.62em;
 }
 
 p {
-  line-height: 1.5;
-  margin: 1em 0 0 0;
+  line-height: 1.62;
+  margin: 1.62em 0 0 0;
 }
 
 h2 + p, h2 + blockquote + p {
@@ -60,9 +64,8 @@ ul {
 }
 
 li {
-  line-height: 1.5;
   padding: 0;
-  margin: 0.8em 0 0 0;
+  margin: 0.81em 0 0 0;
 }
 
 li > :first-child, li a > :first-child {
@@ -80,4 +83,18 @@ picture, img {
   max-width: 100%;
   @include reset;
   user-select: none;
+}
+
+a:link, a:visited {
+  color: $color-menu;
+  text-decoration: underline;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+a:focus {
+  outline: 2px dotted $color-menu;
+  outline-offset: 10px;
 }

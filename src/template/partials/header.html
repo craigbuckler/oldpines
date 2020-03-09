@@ -1,18 +1,27 @@
+<% if (hero && herop) { %>
+<picture class="hero">
+  <source
+    media="(max-aspect-ratio:1/1)"
+    srcset="<%- imagecdn %>f_auto,c_scale,w_250/<%- herop %> 250w, <%- imagecdn %>f_auto/<%- herop %> 500w"
+  />
+  <img
+    src="<%- imagecdn %>f_auto,c_scale,w_400/<%- hero %>"
+    srcset="<%- imagecdn %>f_auto,c_scale,w_800/<%- hero %> 800w, <%- imagecdn %>f_auto/<%- hero %> 1200w"
+    alt="<%= hero.replace(/.+\/([^/].+)$/, '$1').trim(); %>" />
+</picture>
+<% } %>
+
 <header>
+  <div class="content">
 
-  <% if (hero && herop) { %>
-    <picture>
-      <source
-        media="(max-aspect-ratio:5/4)"
-        srcset="<%- imagecdn %>f_auto,c_scale,w_250/<%- herop %> 250w, <%- imagecdn %>f_auto/<%- herop %> 500w"
-      />
-      <img
-        src="<%- imagecdn %>f_auto,c_scale,w_400/<%- hero %>"
-        srcset="<%- imagecdn %>f_auto,c_scale,w_800/<%- hero %> 800w, <%- imagecdn %>f_auto/<%- hero %> 1200w"
-        alt="<%= hero.replace(/.+\/([^/].+)$/, '$1').trim(); %>" />
-    </picture>
-  <% } %>
+    <% if (menu !== 'contact') { %>
 
-  <h1><%- title %></h1>
+      <% if (menu === 'restaurant') { %>
+        <a href="[root]contact/">book table</a>
+      <% } else { %>
+        <a href="<%- book %>">book room</a>
+      <% } %>
+    <% } %>
 
+  </div>
 </header>

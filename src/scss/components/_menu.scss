@@ -1,11 +1,135 @@
 // menu
-nav#menu {
+nav#main {
 
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(3px);
+  font-family: $font-head;
+  color: $color-menu;
+  background-color: rgba($color-back, 0.95);
+  border-bottom: 3px solid $color-bar;
+
+  @supports (backdrop-filter: blur(0)) {
+    background-color: rgba($color-back, 0.7);
+    backdrop-filter: blur(10px);
+  }
+
+  .content {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .bar {
+    background-color: $color-back;
+    border-bottom: 1px solid $color-bar;
+
+    .content {
+      justify-content: flex-end;
+      list-style-type: none;
+
+      a {
+        font-size: 0.75em;
+        padding: 0.3em 0 0.4em 0.5em;
+      }
+
+    }
+
+  }
+
+  a:link, a:visited, label, strong {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    outline-offset: 0;
+  }
+
+  li {
+    padding: 0;
+    margin: 0;
+  }
+
+  img {
+    max-height: 3.5em;
+    padding: 0.2em 0;
+  }
+
+}
+
+#logo {
+  margin: 0;
+}
+
+#menuopen, #menu {
+  text-transform: uppercase;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-inline-start: auto;
+
+  label {
+    padding: 1em 0.25em;
+  }
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-back;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+
+  li {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
+  a, label, strong {
+    padding: 0;
+    outline: 0 none;
+  }
+
+}
+
+#menushow:checked ~ nav#main #menu {
+  transform: translateY(0);
+}
+
+
+@include respond('medium') {
+
+  nav#main .content {
+    padding: 0;
+  }
+
+  #menuopen, #menuclose {
+    display: none;
+  }
+
+  #menu {
+    position: static;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    background-color: transparent;
+    transform: none;
+    transition: none;
+
+    a, strong {
+      padding: 1em 0.25em;
+    }
+
+    a:hover, a:focus, strong {
+      background-color: $color-bar;
+    }
+  }
 
 }
