@@ -9,10 +9,22 @@ priority: 0.5
 
 Please contact us to book a room or reserve a dining table:
 
-<ul class="contact">
-<li data-revealer="left"><a href="tel:+44-1397-712324" class="icon phone">+44 1397 712324</a></li>
-<li data-revealer="right"><a href="#" class="icon email">enquiries {at} oldpines dot co dot uk</a></li>
-</ul>
+<div class="vcard" itemscope="itemscope" itemtype="http://schema.org/Organization" data-revealer="up">
+
+  <p class="adr" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+    <a href="https://www.oldpines.co.uk/" class="fn org url" itemprop="name" title="thepines.co.uk">Old Pines Hotel &amp; Restaurant</a>
+    <span class="street-address" itemprop="streetAddress">Spean Bridge</span>
+    <span class="region" itemprop="addressRegion">Inverness-shire</span>
+    <span class="postal-code" itemprop="postalCode">PH34 4EG</span>
+    <span class="country-name" itemprop="addressCountry">Scotland, UK</span>
+  </p>
+
+  <p><a href="tel:+44-1397-712324" class="icon phone tel" itemprop="telephone" title="call us">+44 1397 712324</a></p>
+
+  <p><a href="[root]contact/" class="icon email" itemprop="email" title="send us an email">enquiries {at} oldpines dot co dot uk</a></p>
+
+</div>
+
 
 <form action="https://www.optimalworks.net/ws/enquiry/" method="post" class="validator">
 

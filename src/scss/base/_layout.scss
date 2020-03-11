@@ -1,9 +1,9 @@
-$pad-horz: 3vw;
+// layout
 
 .content {
-  width: 42em;
+  width: $contentW;
   max-width: 100%;
-  padding: 0 $pad-horz;
+  padding: 0 $contentPad;
   margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@ main {
 
   .content {
     background-color: $color-back;
-    padding: 1em $pad-horz 3em;
+    padding: 1em $contentPad 3em;
   }
 
 }
