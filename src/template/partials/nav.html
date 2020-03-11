@@ -3,9 +3,9 @@
   <section class="bar">
 
       <ul class="content">
-        <li class="full"><a href="[root]location/" class="icon location" tabindex="1">Spean Bridge, Scotland</a></li>
+        <li class="wshow"><a href="[root]location/" class="icon location" tabindex="1">Spean Bridge, Scotland</a></li>
         <li><a href="#" class="icon email" tabindex="1">enquiries {at} oldpines dot co dot uk</a></li>
-        <li><a href="tel:+44-1397-712324" class="icon contact" tabindex="1">+44 1397 712324</a></li>
+        <li><a href="tel:+44-1397-712324" class="icon phone" tabindex="1">+44 1397 712324</a></li>
       </ul>
 
   </section>
@@ -16,7 +16,6 @@
 
     <%
       let navHTML = navGenerate(nav);
-      if (navHTML) navHTML = '<p id="menuopen"><label for="menushow" class="icon menu" tabindex="1">menu</label></p>' + navHTML;
 
       function navGenerate(navSet) {
 
@@ -32,13 +31,14 @@
 
           if (!page.private) navHTML +=
             '<li' + (active ? ' class="active"' : '') + '>' +
-            '<' + (active ? 'strong' : 'a href="' + root + page.url + '"') + '>' +
-            page.menu +
+            '<' + (active ? 'strong' : 'a href="' + root + page.url + '"') + ' title="' + page.title + '">' +
+            '<img src="[root]images/svg/' + page.menu + '.svg" data-inline="1" />' +
+            '<span>' + page.menu + '</span>' +
             (active ? '</strong>' : '</a>') +
             '</li>';
         }
 
-        return navHTML ? '<ul' + (level ? '' : ' id="menu"') + '><li id="menuclose"><label for="menushow" class="icon close" tabindex="1">close</label></li>' + navHTML + '</ul>' : '';
+        return navHTML ? '<ul' + (level ? '' : ' id="menu"') + '>' + navHTML + '</ul>' : '';
       }
     %>
 

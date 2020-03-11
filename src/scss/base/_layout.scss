@@ -9,10 +9,6 @@
 
 main {
 
-  @media (min-height: $respondH) {
-    margin-top: -5em;
-  }
-
   .content {
     background-color: $color-back;
     padding: 1em $contentPad 3em;
@@ -20,7 +16,7 @@ main {
 
 }
 
-.full {
+.wshow {
   display: none;
 
   @include respond('small') {
