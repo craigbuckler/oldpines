@@ -20,8 +20,20 @@ $contentPad : 3vw;
 $respondH		: 42rem;
 
 // colours
+$green-main: #458738;
+$green-dark: #326028;
+$green-lite: #73be63;
+
+$brown-main: #b17868;
+$brown-dark: #8d5849;
+$brown-lite: #dcc1ba;
+
 $color-back: #fff;
-$color-fore: #334;
-$color-logo: #4CA93E;
-$color-menu: #a65;
+$color-fore: #556;
+$color-logo: $green-main;
+$color-menu: $brown-main;
 $color-bar : rgba($color-menu, 0.3);
+$color-foot: $brown-lite;
+
+$color-link: $brown-main;
+$color-lhvr: $brown-dark;

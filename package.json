@@ -6,11 +6,11 @@
   "main": "gulp build",
   "site": {
     "name": "Old Pines Hotel & Restaurant",
-    "shortname": "Old Pines",
+    "shortname": "OldPines",
     "description": "Old Pines Hotel and Restaurant, Spean Bridge, near Fort William, Ben Nevis, and Loch Ness in the highlands of Scotland.",
     "keywords": "Old Pines, hotel, lodging, accommodation, holiday, vacation, stay, rooms, restaurant, food, bar, dining, breakfast, lunch, dinner, catering, Spean Bridge, Fort William, Ben Nevis, Inverness, Loch Ness, Loch Lochy, Great Glen, highlands, Scotland, Scottish, book online",
     "topic": "hotel and restaurant",
-    "company": "Old Pines",
+    "company": "Old Pines Hotel & Restaurant",
     "book": "https://via.eviivo.com/OldPinesHtlPH34",
     "twitter": "",
     "font": "",

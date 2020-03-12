@@ -12,29 +12,35 @@ picture.hero img {
 
 header {
 
-  position: relative;
   height: 100vh;
-  padding: 6em 0;
+  padding: 8em 0;
+
+  ul, li {
+    @include reset-list;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   a:link, a:visited {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 2em;
     display: block;
     width: 10em;
     font-family: $font-head;
     font-weight: 600;
+    line-height: 2.5;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0.5em 0;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0.25em;
     color: $color-back;
     background-color: $color-logo;
-    border: 2px solid $color-logo;
-    transition: background-color 0.2s linear;
-    box-shadow: 0 0px 6px #000;
+    border: 3px solid $color-logo;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.6);
+    transition: all 0.2s linear;
 
     @media (min-height: $respondH) {
       bottom: 7em;
@@ -42,12 +48,12 @@ header {
   }
 
   a:hover, a:focus {
-    color: $color-logo;
-    background-color: rgba($color-back, 0.7);
+    background-color: rgba($color-logo, 0.8);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
   }
 
 }
 
 #contact header {
-  height: 50vh;
+  height: 40vh;
 }

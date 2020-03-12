@@ -1,10 +1,29 @@
 // page footer
 footer {
 
+  background-color: $color-foot;
+
   .content {
-    border-top: 3px solid $color-bar;
-    padding: 1em $contentPad;
-    background-color: rgba($color-back, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1em $contentPad 6em;
+    border-top: 2em solid $color-back;
+  }
+
+  ul, li {
+    @include reset-list;
+  }
+
+  img {
+    max-width: 16em;
+    margin-bottom: 1em;
+  }
+
+  a:link, a:visited {
+    display: block;
+    text-decoration: none;
   }
 
 }

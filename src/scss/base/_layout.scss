@@ -11,9 +11,20 @@ main {
 
   .content {
     background-color: $color-back;
-    padding: 1em $contentPad 3em;
+    padding: 1rem $contentPad;
   }
 
+}
+
+.maxwidth {
+  width: 98vw;
+  margin: 2rem 0 2rem 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+iframe {
+  height: 60vh;
 }
 
 .wshow {

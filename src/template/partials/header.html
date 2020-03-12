@@ -16,11 +16,18 @@
 
     <% if (menu !== 'contact') { %>
 
-      <% if (menu === 'restaurant') { %>
-        <a href="[root]contact/">book table</a>
-      <% } else { %>
-        <a href="<%- book %>">book room</a>
-      <% } %>
+      <ul>
+
+        <% if (menu !== 'restaurant') { %>
+          <li><a href="<%- book %>">book a room</a></li>
+        <% } %>
+
+        <% if (menu !== 'rooms') { %>
+          <li><a href="[root]contact/">book a table</a></li>
+        <% } %>
+
+      </ul>
+
     <% } %>
 
   </div>

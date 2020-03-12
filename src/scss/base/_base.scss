@@ -86,7 +86,7 @@ picture, img {
 }
 
 a:link, a:visited {
-  color: $color-menu;
+  color: $color-link;
   text-decoration: underline;
 }
 
@@ -94,7 +94,11 @@ a:link, a:visited {
   border: 0;
 }
 
+a:hover {
+  color: $color-lhvr;
+}
+
 a:focus {
-  outline: 2px dotted $color-menu;
+  outline: 2px dotted $color-lhvr;
   outline-offset: 10px;
 }
