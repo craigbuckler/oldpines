@@ -85,20 +85,25 @@ picture, img {
   user-select: none;
 }
 
-a:link, a:visited {
+a:link, a:visited, .linkable {
   color: $color-link;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 ::-moz-focus-inner {
   border: 0;
 }
 
-a:hover {
-  color: $color-lhvr;
-}
+a, .linkable {
 
-a:focus {
-  outline: 2px dotted $color-lhvr;
-  outline-offset: 10px;
+  &:hover {
+    color: $color-lhvr;
+  }
+
+  &:focus {
+    outline: 2px dotted $color-lhvr;
+    outline-offset: 10px;
+  }
+
 }

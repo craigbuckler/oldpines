@@ -26,8 +26,8 @@
     "offlineURL": "offline/",
     "offlineList": "cachedpagelist",
     "imagecdn": "https://res.cloudinary.com/oldpines/image/upload/",
-    "analytics": "",
-    "cors": {
+    "analytics": "UA-160606726-1",
+    "csp": {
       "default-src": "",
       "font-src": "data:",
       "style-src": "",
@@ -35,7 +35,7 @@
       "connect-src": "*.optimalworks.net data:",
       "img-src": "* data:",
       "media-src": "",
-      "frame-src": ""
+      "frame-src": "maps.google.com"
     }
   },
   "scripts": {

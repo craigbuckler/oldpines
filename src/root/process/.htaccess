@@ -3,7 +3,7 @@ AddType application/manifest+json .webmanifest
 
 # security
 <FilesMatch "\.(html|php)$">
-Header set Content-Security-Policy "/* @echo cors */"
+Header set Content-Security-Policy "/* @echo csp */"
 Header set Strict-Transport-Security "max-age=63072000"
 Header set X-Content-Type-Options nosniff
 Header set X-Frame-Options SAMEORIGIN

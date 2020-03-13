@@ -8,7 +8,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 1em $contentPad 6em;
+    padding: 0 $contentPad 6em;
     border-top: 2em solid $color-back;
   }
 
@@ -16,13 +16,17 @@ footer {
     @include reset-list;
   }
 
+  ul {
+    margin-top: 1em;
+  }
+
   img {
     max-width: 16em;
     margin-bottom: 1em;
   }
 
-  a:link, a:visited {
-    display: block;
+  a:link, a:visited, .linkable {
+    display: inline-block;
     text-decoration: none;
   }
 

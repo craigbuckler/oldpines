@@ -74,6 +74,13 @@ nav#main {
   background-color: $color-back;
   border-top: 3px solid $color-bar;
 
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+
+  .at0 &, .scroll-1 &, .at2 & {
+    transform: translateY(0);
+  }
+
   li {
     flex: 1 1 10vw;
   }
@@ -97,6 +104,7 @@ nav#main {
   }
 
 }
+
 
 @media (min-width: map-get($breakpoint, 'medium')) and (min-height: $respondH) {
 
@@ -124,6 +132,9 @@ nav#main {
     height: auto;
     background-color: transparent;
     border-top: 0 none;
+
+    transform: none;
+    transition: none;
 
     a, strong {
       padding: 1em 0.5em;

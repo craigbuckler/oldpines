@@ -79,12 +79,12 @@
   // full root URL
   sitemeta.rootURL = sitemeta.thisDomain + (sitemeta.rootpath || '');
 
-  // CORS string
-  let cors = '';
-  for (let c in sitemeta.cors) {
-    cors += `${c} 'self' ${sitemeta.cors[c]}`.trim() + '; ';
+  // CSP string
+  let csp = '';
+  for (let c in sitemeta.csp) {
+    csp += `${c} 'self' ${sitemeta.csp[c]}`.trim() + '; ';
   }
-  sitemeta.cors = cors.trim();
+  sitemeta.csp = csp.trim();
 
   // Browser-sync
   let browsersync	= false;

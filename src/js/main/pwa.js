@@ -9,26 +9,23 @@
 
   'use strict';
 
-  // CURRENTLY DEACTIVATED
-  return;
-
   if (!ow.pwa) return;
 
   // enable service worker
-  if ('serviceWorker' in navigator) {
+  // if ('serviceWorker' in navigator) {
 
-    // register service worker
-    navigator.serviceWorker.register('/* @echo rootpath */sw.js');
+  //   // register service worker
+  //   navigator.serviceWorker.register('/* @echo rootpath */sw.js');
 
-    // load script to populate offline page list
-    if (document.getElementById('/* @echo offlineList */') && 'caches' in window) {
-      var scr = document.createElement('script');
-      scr.src = '/* @echo rootpath */js/offlinepage-/* @echo versionFile */.js';
-      scr.async = 1;
-      document.head.appendChild(scr);
-    }
+  //   // load script to populate offline page list
+  //   if (document.getElementById('/* @echo offlineList */') && 'caches' in window) {
+  //     var scr = document.createElement('script');
+  //     scr.src = '/* @echo rootpath */js/offlinepage-/* @echo versionFile */.js';
+  //     scr.async = 1;
+  //     document.head.appendChild(scr);
+  //   }
 
-  }
+  // }
 
   // add to home screen
   var
