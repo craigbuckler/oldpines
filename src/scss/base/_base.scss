@@ -72,7 +72,21 @@ li > :first-child, li a > :first-child {
   margin-top: 0;
 }
 
-strong {
+table {
+  clear: both;
+  vertical-align: top;
+  margin: 2em auto 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 0 0.5em;
+  margin: 0;
+}
+
+th, strong {
   font-weight: 600;
 }
 
@@ -83,6 +97,49 @@ picture, img {
   max-width: 100%;
   @include reset;
   user-select: none;
+}
+
+$bqtail: 10px;
+
+blockquote {
+  clear: both;
+  position: relative;
+  display: block;
+  width: 66%;
+  padding: 0.8em 1.5em 1em;
+  margin: $bqtail 0 0 0;
+  background-color: $color-menu;
+  border-radius: $bqtail;
+
+  &::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 1.5em;
+    bottom: ($bqtail * -2 + 1);
+    border-width: $bqtail;
+    border-style: solid;
+    border-color: $color-menu $color-menu transparent transparent;
+  }
+
+  p {
+    font-style: italic;
+    line-height: 1.4;
+    margin: 0;
+    color: $color-back;
+  }
+}
+
+blockquote:nth-of-type(even) {
+  margin-left: auto;
+
+  &::after {
+    left: auto;
+    right: 1.5em;
+    border-color: $color-menu transparent transparent $color-menu;
+  }
+
 }
 
 a:link, a:visited, .linkable {

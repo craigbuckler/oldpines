@@ -1,7 +1,8 @@
 ---
-title: Privacy policy
+title: Old Pines privacy policy
 menu: privacy
 description: We don't discuss you or your projects with anyone (privacy policy and GDPR).
+quote: Beautiful location. Spotless rooms. The food is truly outstanding.
 hero:  v1583683270/hero/old-pines-lounge
 herop: v1583683270/hero/old-pines-lounge-p
 priority: 0.1

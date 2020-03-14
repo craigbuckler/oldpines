@@ -2,11 +2,11 @@
 <picture class="hero">
   <source
     media="(max-aspect-ratio:1/1)"
-    srcset="<%- imagecdn %>f_auto,c_scale,w_250/<%- herop %> 250w, <%- imagecdn %>f_auto/<%- herop %> 500w"
+    srcset="<%- imagecdn %>c_scale,w_250/<%- herop %> 250w, <%- imagecdn %><%- herop %> 500w"
   />
   <img
     src="<%- imagecdn %>f_auto,c_scale,w_400/<%- hero %>"
-    srcset="<%- imagecdn %>f_auto,c_scale,w_800/<%- hero %> 800w, <%- imagecdn %>f_auto/<%- hero %> 1200w"
+    srcset="<%- imagecdn %>c_scale,w_800/<%- hero %> 800w, <%- imagecdn %><%- hero %> 1200w"
     alt="<%= hero.replace(/.+\/([^/].+)$/, '$1').trim(); %>" />
 </picture>
 <% } %>
@@ -14,16 +14,20 @@
 <header>
   <div class="content">
 
-    <% if (menu !== 'contact') { %>
+    <% if (quote) { %>
+      <q><%- quote %></q>
+    <% } %>
+
+    <% if (menu !== 'contact' && menu !== 'offline') { %>
 
       <ul>
 
         <% if (menu !== 'restaurant') { %>
-          <li><a href="<%- book %>">book a room</a></li>
+          <li><a href="<%- book %>" class="button">book a room</a></li>
         <% } %>
 
         <% if (menu !== 'rooms') { %>
-          <li><a href="[root]contact/">book a table</a></li>
+          <li><a href="[root]contact/" class="button">book a table</a></li>
         <% } %>
 
       </ul>

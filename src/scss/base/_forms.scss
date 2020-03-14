@@ -80,7 +80,7 @@ label {
 }
 
 button {
-  width: 8em;
+  width: 10em;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 2.5;
@@ -102,6 +102,33 @@ button {
 
   &::-moz-focus-inner {
     border:0;
+  }
+
+}
+
+a.button {
+
+  &:link, &:visited {
+    display: block;
+    width: 10em;
+    font-family: $font-head;
+    font-weight: 600;
+    line-height: 2.5;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0;
+    margin: 2em auto 0;
+    color: $color-back;
+    background-color: $color-logo;
+    border: 3px solid $color-logo;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.6);
+    transition: all 0.2s linear;
+  }
+
+  &:hover, &:focus {
+    background-color: rgba($color-logo, 0.8);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
   }
 
 }

@@ -9,12 +9,20 @@ $redir = array(
 	'index' => '',
 	'welcome' => '',
 	'home' => '',
-	'about' => 'about/',
-	'privacy' => 'about/privacy/',
-	'serv' => 'service/',
+	'hotel' => 'rooms/',
+	'room' => 'rooms/',
+	'stay' => 'rooms/',
+	'break' => 'rooms/',
+	'din' => 'restaurant/',
+	'lunch' => 'restaurant/',
+	'locat' => 'location/',
+	'map' => 'location/',
+	'find' => 'location/',
+	'area' => 'location/',
 	'contact' => 'contact/',
 	'mail' => 'contact/',
-	'tel' => 'contact/'
+	'tel' => 'contact/',
+	'priv' => 'privacy/',
 
 );
 foreach ($redir as $pold => $pnew) if (strpos($addr, $pold) !== false) $url = '/* @echo rootURL */' . $pnew;

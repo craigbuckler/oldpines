@@ -2,6 +2,7 @@
 title: Old Pines Hotel & Restaurant
 menu: home
 description: Old Pines Hotel & Restaurant, Spean Bridge, near Fort William, Ben Nevis, and Loch Ness in the highlands of Scotland.
+quote: The best hotel along the Great Glen Way. The food is unrivaled.
 hero:  v1583683270/hero/old-pines-drive
 herop: v1583683269/hero/old-pines-drive-p
 priority: 1.0
@@ -32,4 +33,25 @@ Welcome to Old Pines. We are a small hotel and restaurant set in seven acres of 
   </ul>
 </nav>
 
-Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuvenating Highland air.
+Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuvenating Scottish Highland air.
+
+
+## 5-star customer reviews
+
+Thank you to all our customers for their complimentary reviews of Old Pines Hotel & Restaurant&hellip;
+
+> The best hotel along the Great Glen Way. The food is unrivaled. I cannot recommend it highly enough.
+
+> Extremely beautiful location with a view of Ben Nevis. The food was delicious and the staff are very friendly.
+
+> The most perfect and peaceful location. Very tranquil, superb food and service. Delighted we came. Highly recommended.
+
+> Welcoming, good food, and excellent staff. We would have stayed longer if we could. A really enjoyable experience. Faultless.
+
+|review site|average score|
+|-|-|
+|Google|[4.7 out of 5.0](https://www.google.com/travel/hotels/entity/CgoIm_rmqp-DqL9uEAE/reviews)|
+|Tripadvisor|[4.5 out of 5.0](https://www.tripadvisor.co.uk/Hotel_Review-g635692-d304682-Reviews-Old_Pines_Hotel_and_Restaurant-Spean_Bridge_Lochaber_Scottish_Highlands_Scotland.html#REVIEWS)|
+|Trivago|[9.2 out of 10.0](https://www.trivago.co.uk/spean-bridge-359271/hotel/old-pines-604336)|
+|Booking.com|[9.4 out of 10.0](https://www.booking.com/hotel/gb/oldpineshotel.en-gb.html#tab-reviews)|
+|Expedia.co.uk|[4.8 out of 5.0](https://www.expedia.co.uk/Spean-Bridge-Hotels-Old-Pines-Hotel.h2254781.Hotel-Information)|

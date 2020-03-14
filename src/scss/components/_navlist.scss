@@ -70,53 +70,31 @@
 
 }
 
-.service {
+.list.service {
 
   ul {
     justify-content: center;
   }
 
+  $itemW: 7em;
+
   li {
-    flex-basis: 8em;
-    max-width: 8em;
-    margin: 1vmin 3vmin;
-    border: 0 none;
-  }
-
-  h2, p {
+    flex-basis: $itemW;
+    width: $itemW;
+    min-width: auto;
+    max-width: $itemW;
+    min-height: auto;
+    max-height: none;
     text-align: center;
-    margin: 0.3rem 0;
-  }
-
-  p {
-    margin: 0 0 0.5em 0;
+    line-height: 1.2;
+    padding: 0.3em;
+    background-color: $color-foot;
+    border-radius: 10px;
   }
 
   svg {
-
-    transform: rotate(0);
-    transition: transform 1s ease-in-out;
-
-    path {
-      fill: $color-logo;
-    }
-
-  }
-
-  a:hover, a:focus {
-
-    #consultancy {
-      transform: rotate(180deg);
-    }
-
-    #development {
-      transform: rotateX(5deg) rotateY(40deg);
-    }
-
-    #training {
-      transform: rotateY(180deg);
-    }
-
+    max-height: 3em;
+    margin-bottom: 0.5em;
   }
 
 }

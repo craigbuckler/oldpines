@@ -2,6 +2,7 @@
 title: Old Pines location and activities
 menu: location
 description: Old Pines is nestled in the heart of the Scottish Highlands close to Ben Nevis and Loch Ness.
+quote: A stunning setting with views of Ben Nevis.
 hero:  v1583683269/hero/ben-nevis
 herop: v1583683269/hero/ben-nevis-p
 priority: 0.7
@@ -38,3 +39,8 @@ A selection of activities and unmissable areas to be experienced within one hour
 * [Road to the Isles](https://www.road-to-the-isles.org.uk/)
 
 We have our very own walk across the road from the hotel. The [Highbridge Circular walk](https://www.wildlochaber.com/spean-bridge/walking/high-bridge-and-commando-memorial) takes in the old Highbridge ruins, the site of Jacobite rebellion, the remains of the abandoned Gairlochy to Fort Augustus railway, the Commando Memorial, and the dramatic Spean Gorge. An hour and a half of easy, mostly-flat walking is the perfect way to rejuvenate the body, relax the mind, and work up an appetite for [dinner]([root]restaurant/).
+
+
+> Beautiful location. Spotless rooms. Friendly without being intrusive. The food is truly outstanding. Highly recommended.
+
+> Stunning setting with views of Ben Nevis. Clean, comfortable, excellent service, and impressive food.
