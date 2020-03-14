@@ -15,7 +15,7 @@
     "twitter": "",
     "font": "",
     "language": "en-GB",
-    "domain": "https://www.oldpines.co.uk/",
+    "domain": "https://www.oldpines.co.uk",
     "ftphost": "ftp.oldpines.co.uk",
     "ftpdest": "/public_html",
     "root": "/",
@@ -35,7 +35,7 @@
       "connect-src": "*.optimalworks.net data:",
       "img-src": "* data:",
       "media-src": "",
-      "frame-src": "maps.google.com"
+      "frame-src": "*.google.com"
     }
   },
   "scripts": {

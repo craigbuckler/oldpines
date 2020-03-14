@@ -15,35 +15,35 @@ All our rooms offer:
 <div class="list service">
   <ul>
     <li data-revealer="zoomup">
-      <img src="[root]images/svg/wifi.svg" data-inline="1" alt="" />
+      <img src="/images/svg/wifi.svg" data-inline="1" alt="" />
       free wifi
     </li>
     <li data-revealer="zoomup">
-      <img src="[root]images/svg/phone.svg" data-inline="1" alt="" />
+      <img src="/images/svg/phone.svg" data-inline="1" alt="" />
       direct telephone
     </li>
     <li data-revealer="zoomup">
-      <img src="[root]images/svg/shower.svg" data-inline="1" alt="" />
+      <img src="/images/svg/shower.svg" data-inline="1" alt="" />
       en-suite shower room
     </li>
     <li data-revealer="zoomup">
-      <img src="[root]images/svg/drink.svg" data-inline="1" alt="" />
+      <img src="/images/svg/drink.svg" data-inline="1" alt="" />
       tea &amp; coffee facilities
     </li>
     <li data-revealer="zoomup">
-      <img src="[root]images/svg/tv.svg" data-inline="1" alt="TV and DVD" />
+      <img src="/images/svg/tv.svg" data-inline="1" alt="TV and DVD" />
       flat-screen television
     </li>
     <li data-revealer="zoomup">
-      <img src="[root]images/svg/book.svg" data-inline="1" alt="" />
+      <img src="/images/svg/book.svg" data-inline="1" alt="" />
       books &amp; movies
     </li>
     <li data-revealer="zoomup">
-      <img src="[root]images/svg/wheelchair.svg" data-inline="1" alt="" />
+      <img src="/images/svg/wheelchair.svg" data-inline="1" alt="" />
       disabled access
     </li>
     <li data-revealer="zoomup">
-      <img src="[root]images/svg/car.svg" data-inline="1" alt="" />
+      <img src="/images/svg/car.svg" data-inline="1" alt="" />
       free parking
     </li>
   </ul>

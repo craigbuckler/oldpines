@@ -21,15 +21,15 @@ nav#main {
       list-style-type: none;
 
       a {
-        font-size: 0.75em;
-        padding: 0.3em 0 0.4em 0.5em;
+        font-size: 0.8em;
+        padding: 0.2em 0 0.3em 0.5em;
       }
 
     }
 
   }
 
-  a:link, a:visited, label, strong {
+  a:link, a:visited, strong {
     display: block;
     width: 100%;
     height: 100%;
@@ -56,51 +56,55 @@ nav#main {
   margin: 0;
 }
 
-#menu {
+#menutext, #menuimg {
+  display: flex;
+  text-transform: uppercase;
+  @include reset-list;
+
+  li {
+    flex: 1 1 20%;
+    @include reset;
+  }
+
+  a:link, a:visited, strong {
+    display: block;
+  }
+
+  a:hover, a:focus, strong {
+    background-color: $color-bar;
+    outline: 0 none;
+  }
+}
+
+#menutext {
+  display: none;
+}
+
+#menuimg {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  display: flex;
-  text-transform: uppercase;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-inline-start: auto;
   background-color: $color-back;
   border-top: 3px solid $color-bar;
 
   transform: translateY(100%);
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease 0.2s;
 
   .at0 &, .scroll-1 &, .at2 & {
     transform: translateY(0);
   }
 
-  li {
-    flex: 1 1 10vw;
-  }
-
   a, strong {
-    padding: 0.5em;
-    outline: 0 none;
-  }
-
-  a:hover, a:focus, strong {
-    background-color: $color-bar;
+    padding: 0.3em 0 0 0;
   }
 
   svg {
     width: 100%;
-    max-height: 6vh;
-  }
-
-  span {
-    display: none;
+    max-height: 5vh;
   }
 
 }
-
 
 @media (min-width: map-get($breakpoint, 'medium')) and (min-height: $respondH) {
 
@@ -122,27 +126,22 @@ nav#main {
     margin: 0 auto;
   }
 
-  #menu {
-    position: static;
+  #menuimg {
+    display: none;
+  }
+
+  #menutext {
+    display: flex;
     width: auto;
     height: auto;
+    margin-inline-start: auto;
     background-color: transparent;
     border-top: 0 none;
-
-    transform: none;
-    transition: none;
 
     a, strong {
       padding: 1em 0.5em;
     }
 
-    svg {
-      display: none;
-    }
-
-    span {
-      display: block;
-    }
   }
 
 }

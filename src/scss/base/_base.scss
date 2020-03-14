@@ -105,7 +105,8 @@ blockquote {
   clear: both;
   position: relative;
   display: block;
-  width: 66%;
+  width: 82%;
+  max-width: 30em;
   padding: 0.8em 1.5em 1em;
   margin: $bqtail 0 0 0;
   background-color: $color-menu;

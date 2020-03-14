@@ -1,3 +1,37 @@
+<%
+  let [navText, navImg] = navGenerate(nav);
+
+  function navGenerate(navSet) {
+
+    let navText = '', navImg = '', level = 0;
+    for (let p = 0; p < navSet.length; p++) {
+
+      let
+        page = navSet[p],
+        open = navlist[page.level] === page.item,
+        active = open && !navlist[page.level+1];
+
+      level = page.level;
+
+      if (!page.private) {
+
+        let
+          s =
+            '<li' + (active ? ' class="active"' : '') + '>' +
+            '<' + (active ? 'strong' : 'a href="' + root + page.url + '"') + ' title="' + page.title + '">',
+          e = (active ? '</strong>' : '</a>') + '</li>';
+
+        navText += s + page.menu + e;
+        navImg  += s + '<img src="/images/svg/' + page.menu + '.svg" data-inline="1" />' + e;
+
+      }
+    }
+
+    return [navText, navImg];
+  }
+%>
+
+
 <nav id="main">
 
   <section class="bar">
@@ -14,35 +48,10 @@
 
     <p id="logo"><a href="<%- root %>" tabindex="0"><img src="<%- imagecdn %>f_auto/v1583684035/old-pines-logo" alt="<%= name %>" /></a></p>
 
-    <%
-      let navHTML = navGenerate(nav);
 
-      function navGenerate(navSet) {
-
-        let navHTML = '', level = 0;
-        for (let p = 0; p < navSet.length; p++) {
-
-          let
-            page = navSet[p],
-            open = navlist[page.level] === page.item,
-            active = open && !navlist[page.level+1];
-
-          level = page.level;
-
-          if (!page.private) navHTML +=
-            '<li' + (active ? ' class="active"' : '') + '>' +
-            '<' + (active ? 'strong' : 'a href="' + root + page.url + '"') + ' title="' + page.title + '">' +
-            '<img src="[root]images/svg/' + page.menu + '.svg" data-inline="1" />' +
-            '<span>' + page.menu + '</span>' +
-            (active ? '</strong>' : '</a>') +
-            '</li>';
-        }
-
-        return navHTML ? '<ul' + (level ? '' : ' id="menu"') + '>' + navHTML + '</ul>' : '';
-      }
-    %>
-
-    <%- navHTML %>
+    <ul id="menutext"><%- navText %></ul>
 
   </div>
 </nav>
+
+<ul id="menuimg"><%- navImg %></ul>
