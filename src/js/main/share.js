@@ -25,18 +25,20 @@
   // make linkable
   ow.lib.each(shareLink, function(e) {
     e.tabIndex = 0;
+    e.setAttribute('role', 'button');
     e.classList.add(cfg.linkClass);
+    e.addEventListener('click', share, false);
+    e.addEventListener('keypress', share, false);
   });
 
-  // share click handler
-  document.body.addEventListener('click', function(e) {
+  function share(e) {
 
     // share clicked?
-    if (!e.target.classList.contains(cfg.shareClass)) return;
+    if (!e.target.classList.contains(cfg.shareClass) || (e.type === 'keypress' && e.keyCode !== 13 && e.keyCode !== 32)) return;
 
     // share API call
     navigator.share(ow.lib.pageInfo());
 
-  }, false);
+  }
 
 })();

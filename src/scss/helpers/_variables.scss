@@ -2,14 +2,14 @@
 
 // fonts
 $font-main: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-$font-head: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+$font-head: Corbel, "Lucida Sans", "DejaVu Sans", "Liberation Sans", Helvetica, Arial, sans-serif;
 $font-size: 130%;
 
 // responsive breakpoints
 $breakpoint: (
-	'small'		: 36rem,
-	'medium'	: 46rem,
-	'large'		: 56rem
+	'small'		: 36em,
+	'medium'	: 46em,
+	'large'		: 56em
 );
 
 // content width
@@ -17,15 +17,15 @@ $contentW		: 42rem;
 $contentPad : 3vw;
 
 // responsive height
-$respondH		: 42rem;
+$respondH		: 42em;
 
 // colours
 $green-main: #458738;
 $green-dark: #326028;
 $green-lite: #73be63;
 
-$brown-main: #b17868;
-$brown-dark: #8d5849;
+$brown-main: #8d5849;
+$brown-dark: #603c31;
 $brown-lite: #efe1de;
 
 $color-back: #fff;

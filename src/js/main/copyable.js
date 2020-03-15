@@ -26,15 +26,19 @@
   // make linkable
   ow.lib.each(copyLink, function(e) {
     e.tabIndex = 0;
+    e.setAttribute('role', 'button');
     e.classList.add(cfg.linkClass);
+    e.addEventListener('click', copyText, false);
+    e.addEventListener('keypress', copyText, false);
   });
 
   // copy click handler
-  document.body.addEventListener('click', function(e) {
+  function copyText(e) {
 
     // copy clicked?
     var t = e.target, v = t.getAttribute(cfg.copier);
-    if (v === null) return;
+    if (v === null || (e.type === 'keypress' && e.keyCode !== 13 && e.keyCode !== 32)) return;
+    e.preventDefault();
 
     var field, input, copied = t.getAttribute(cfg.done);
 
@@ -85,6 +89,6 @@
     // change element text
     if (copied) t.textContent = copied;
 
-  }, false);
+  }
 
 })();
