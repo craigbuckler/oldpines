@@ -8,7 +8,7 @@ herop: v1583683269/hero/old-pines-room-p
 priority: 0.9
 ---
 
-Each of our seven restful and comfortable rooms has a view of the hotel gardens. The front-facing rooms also have views of the Ben Nevis mountain range.
+Each of our seven restful and comfortable rooms has a view of the hotel gardens. The front-facing rooms also have views of Scotland's Ben Nevis mountain range.
 
 All our rooms offer:
 
@@ -52,7 +52,7 @@ All our rooms offer:
 
 ## Room facilities
 
-All rooms are decorated in calming, natural colours to compliment the wooded surroundings of the hotel. They have beautiful, en-suite, fully-tiled shower rooms with spacious walk in cubicles supplied with complimentary toiletries and deep, fluffy towels. Room features:
+All rooms are decorated in calming, natural colours to compliment the wooded surroundings of the hotel. They have beautiful, en-suite, fully-tiled shower rooms with spacious walk-in cubicles supplied with complimentary toiletries and deep, fluffy towels. Room features:
 
 * child-friendly
 * free parking on the front driveway
@@ -61,13 +61,15 @@ All rooms are decorated in calming, natural colours to compliment the wooded sur
 * a television with UK Freeview channels
 * tea and coffee-making facilities with a selection of Fairtrade and organic beverages
 * our famous Scottish homemade oat cookies
+* twin, king-size, and super-king-size beds
 * air conditioning
 * free breakfast
+* [disabled access](#disabled-access)
 * pet facilities
 * no smoking
 * 5-star reviews
 
-Prices start from &pound;60. Check-in from 2:00pm.
+Prices start from &pound;60 per person per night. Check-in from 2:00pm.
 
 > Fantastic service from the staff, comfortable rooms with spectacular surroundings and views.
 
@@ -76,12 +78,10 @@ Prices start from &pound;60. Check-in from 2:00pm.
 
 ## Family rooms
 
-We offer two family rooms:
+Two of our bedrooms are family rooms:
 
 1. A family suite with a king-size bed in the main room, and one or two single beds in a separate adjoining room.
 1. A large room with a super-king-size bed and one single bed.
-
-We can also a twin or super-king-size bedroom with disabled facilities and four further king-size bedrooms.
 
 
 ## Disabled access

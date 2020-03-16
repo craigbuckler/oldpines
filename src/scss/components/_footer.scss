@@ -9,7 +9,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 0 $contentPad 6em;
+    padding: 0 $contentPad;
     margin-top: -3px;
     border-top: 3em solid $color-back;
   }
@@ -25,6 +25,18 @@ footer {
   img {
     max-width: 16em;
     margin-bottom: 1em;
+  }
+
+  p {
+    width: 100%;
+    font-family: $font-head;
+    font-size: 0.75em;
+    text-align: center;
+    padding: 2em 0 4em;
+
+    a {
+      padding: 0.5em;
+    }
   }
 
   a:link, a:visited, .linkable {

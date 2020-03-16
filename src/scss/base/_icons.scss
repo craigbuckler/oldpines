@@ -7,7 +7,7 @@
 
 .icon, .icon:before {
   display: inline-block;
-  vertical-align: sub;
+  vertical-align: middle;
   white-space: nowrap;
 }
 
@@ -26,6 +26,7 @@
 @include icon('facebook');
 @include icon('linkedin');
 @include icon('location');
+@include icon('optimalworks');
 @include icon('phone');
 @include icon('share');
 @include icon('twitter');

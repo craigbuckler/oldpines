@@ -7,7 +7,7 @@ herop: v1583683270/hero/old-pines-hotel-p
 priority: 0.5
 ---
 
-Please contact us to [book a room]([book]) or reserve a dining table:
+Please contact us to [book a hotel room]([book]) or reserve a dining table:
 
 <div class="vcard" itemscope="itemscope" itemtype="http://schema.org/Organization">
 

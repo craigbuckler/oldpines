@@ -8,7 +8,7 @@ herop: v1583683269/hero/ben-nevis-p
 priority: 0.7
 ---
 
-The Scottish Highlands is the last remaining true wilderness in the UK. Home to the highest mountains, largest lochs and most stunning scenery, the surroundings are to be explored whether you are a cyclist, a walker, or just driving.
+The Scottish Highlands is the last remaining true wilderness in the UK. Home to the highest mountains, largest lochs, and most stunning scenery, Old Pines hotel surroundings are to be explored whether you are a cyclist, a walker, or just driving.
 
 <div class="maxwidth">
   <iframe src="https://maps.google.com/maps?q=Old%20Pines%20Hotel,%20Spean%20Bridge%20PH64%204EG&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="100%" height="500px" loading="lazy" scrolling="no" marginheight="0" marginwidth="0" frameborder="0"></iframe>
@@ -24,13 +24,17 @@ Old Pines Hotel is [65 miles or 100 minutes drive from Inverness Airport](https:
 1. Turn right on to the B8004 at the Commando Memorial.
 1. [name] is 300 metres on the right.
 
+> Beautiful location. Spotless rooms. Friendly without being intrusive. The food is truly outstanding. Highly recommended.
+
+> Stunning setting with views of Ben Nevis. Clean, comfortable, excellent service, and impressive food.
+
 
 ## Local activities
 
-A selection of activities and unmissable areas to be experienced within one hour travel of Old Pines:
+A selection of Scottish activities and unmissable Highland areas to be experienced within one hour travel of Old Pines:
 
-* [Loch Ness](http://www.lochness.com/)
-* [Ben Nevis](http://ben-nevis.com/)
+* [Loch Ness](http://www.lochness.com/) and the [Loch Ness Monster Experiences](https://www.visitinvernesslochness.com/explore-the-scottish-highlands/loch-ness-myths-and-legends/)
+* [Ben Nevis mountain](http://ben-nevis.com/)
 * [Aonach Mor / the Nevis Range](https://www.nevisrange.co.uk/)
 * [Caledonian Canal](https://www.scottishcanals.co.uk/canals/caledonian-canal/)
 * [Great Glen Way](https://www.highland.gov.uk/greatglenway/)
@@ -39,8 +43,3 @@ A selection of activities and unmissable areas to be experienced within one hour
 * [Road to the Isles](https://www.road-to-the-isles.org.uk/)
 
 We have our very own walk across the road from the hotel. The [Highbridge Circular walk](https://www.wildlochaber.com/spean-bridge/walking/high-bridge-and-commando-memorial) takes in the old Highbridge ruins, the site of Jacobite rebellion, the remains of the abandoned Gairlochy to Fort Augustus railway, the Commando Memorial, and the dramatic Spean Gorge. An hour and a half of easy, mostly-flat walking is the perfect way to rejuvenate the body, relax the mind, and work up an appetite for [dinner]([root]restaurant/).
-
-
-> Beautiful location. Spotless rooms. Friendly without being intrusive. The food is truly outstanding. Highly recommended.
-
-> Stunning setting with views of Ben Nevis. Clean, comfortable, excellent service, and impressive food.

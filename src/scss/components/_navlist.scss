@@ -40,6 +40,11 @@
     max-width: none;
     opacity: 1;
     transition: all 1s ease-out;
+
+    @media (prefers-reduced-motion: reduce) {
+  		transition: none;
+    }
+
   }
 
   h2 {
@@ -64,6 +69,12 @@
     img {
       opacity: 0.4;
       transform: scale(1.1);
+
+      @media (prefers-reduced-motion: reduce) {
+        opacity: 1;
+        transform: none;
+      }
+
     }
 
   }

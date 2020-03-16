@@ -18,6 +18,7 @@ body {
   @include reset;
   color: $color-fore;
   background-color: $color-back;
+  overflow-x: hidden;
   overscroll-behavior: none;
 }
 
@@ -103,9 +104,7 @@ picture, img {
 $bqtail: 10px;
 
 blockquote {
-  clear: both;
   position: relative;
-  display: block;
   width: 82%;
   max-width: 30em;
   padding: 0.8em 1.5em 1em;

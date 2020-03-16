@@ -8,7 +8,7 @@ herop: v1583683269/hero/old-pines-drive-p
 priority: 1.0
 ---
 
-Welcome to Old Pines. We are a small hotel and restaurant set in seven acres of ancient Scots pine trees just north of Spean Bridge, near Fort William, in the Scottish Highlands with spectacular view of the Ben Nevis Range.
+Welcome to Old Pines. We are a small hotel and restaurant set in seven acres of ancient Scots pine trees just north of Spean Bridge, near Fort William, in the Highlands of Scotland with spectacular view of the Ben Nevis Range.
 
 <nav class="list">
   <ul>
@@ -38,7 +38,7 @@ Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuv
 
 ## 5-star customer reviews
 
-Thank you to all our customers for their complimentary reviews of Old Pines Hotel & Restaurant&hellip;
+Thank you to all our customers for their complimentary reviews of Old Pines Hotel & Restaurant in Scotland&hellip;
 
 > The best hotel along the Great Glen Way. The food is unrivaled. I cannot recommend it highly enough.
 

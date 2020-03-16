@@ -1,18 +1,76 @@
 // print styling
 @media print {
 
-  *, footer a:link, footer a:visited {
+  :root {
+    font-size: 16px;
+  }
+
+  *, a:link, a:visited {
+    background-color: #fff !important;
     color: #000 !important;
-    background-color: transparent !important;
+    text-decoration: none !important;
+    text-shadow: none !important;
   }
 
 	html, body {
 		width: 100%;
     font-size: 100%;
-    display: block;
   }
 
-  header {
+  main, footer {
+    padding: 0;
+    margin: 0;
+  }
+
+  .content {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 1em 0 !important;
+    border: 0 none !important;
+  }
+
+  .list{
+
+    margin: 1em auto;
+
+    li {
+      min-height: auto;
+    }
+
+    h2 {
+      position: static;
+    }
+
+  }
+
+  li {
+    margin-top: 0.5em;
+  }
+
+  blockquote {
+
+    max-width: 90%;
+    border: 2px solid #ccc;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .revealer {
+    opacity: 1;
+    animation: none;
+  }
+
+  footer {
+    border-top: 1px solid #ccc;
+  }
+
+  footer, table, h1, h2, p, blockquote {
+    break-inside: avoid;
+  }
+
+  picture.hero, header, iframe, nav#main, #menutext, #menuimg, .intent, form, .button, .list img, .icon::before, .noprint {
     display: none !important;
   }
 

@@ -16,7 +16,7 @@ main {
 }
 
 .maxwidth {
-  width: 98vw;
+  width: calc(100vw - 22px);
   margin: 2rem 0 2rem 50%;
   transform: translateX(-50%);
   overflow: hidden;

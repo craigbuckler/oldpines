@@ -150,6 +150,11 @@ a.button {
     border: 3px dashed $field-hint;
     border-radius: 50%;
     animation: spinner 2s linear infinite;
+
+    @media (prefers-reduced-motion: reduce) {
+  		animation: none !important;
+    }
+
   }
 }
 
