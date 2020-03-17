@@ -70,7 +70,7 @@
     break-inside: avoid;
   }
 
-  picture.hero, header, iframe, nav#main, #menutext, #menuimg, .intent, form, .button, .list img, .icon::before, .noprint {
+  picture.hero, header, iframe, #bar, #menutext, #menuimg, .intent, form, .button, .list img, .icon::before, .noprint {
     display: none !important;
   }
 

@@ -20,20 +20,21 @@ $contentPad : 3vw;
 $respondH		: 42em;
 
 // colours
-$green-main: #458738;
-$green-dark: #326028;
-$green-lite: #73be63;
+$green-main: #483;
+$green-dark: #363;
+$green-lite: #7b6;
 
-$brown-main: #8d5849;
-$brown-dark: #603c31;
-$brown-lite: #efe1de;
+$grey-main: #6f6e6e;
+$grey-dark: #556;
+$grey-lite: #eee;
 
 $color-back: #fff;
-$color-fore: #556;
+$color-fore: $grey-dark;
 $color-logo: $green-main;
-$color-menu: $brown-main;
+$color-menu: $grey-main;
 $color-bar : rgba($color-menu, 0.3);
-$color-foot: $brown-lite;
+$color-foot: $grey-lite;
 
-$color-link: $brown-main;
-$color-lhvr: $brown-dark;
+$color-bold: $green-dark;
+$color-link: $green-dark;
+$color-lhvr: $green-main;

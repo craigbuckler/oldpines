@@ -1,6 +1,6 @@
 // form styling
-$field-back: lighten($brown-lite, 15%);
-$field-outr: $brown-main;
+$field-back: lighten($grey-lite, 15%);
+$field-outr: $grey-main;
 $field-hint: $color-logo;
 $field-help: #c00;
 
@@ -110,10 +110,10 @@ a.button {
 
   &:link, &:visited {
     display: block;
-    width: 10em;
+    width: 9em;
     font-family: $font-head;
     font-weight: 600;
-    line-height: 2.5;
+    line-height: 2.2;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;

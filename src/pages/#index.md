@@ -3,8 +3,8 @@ title: Old Pines Hotel & Restaurant
 menu: home
 description: Old Pines Hotel & Restaurant, Spean Bridge, near Fort William, Ben Nevis, and Loch Ness in the highlands of Scotland.
 quote: The best hotel along the Great Glen Way. The food is unrivaled.
-hero:  v1583683270/hero/old-pines-drive
-herop: v1583683269/hero/old-pines-drive-p
+hero:  v1584443030/hero/old-pines-drive-02
+herop: v1584442759/hero/old-pines-drive-02-p
 priority: 1.0
 ---
 

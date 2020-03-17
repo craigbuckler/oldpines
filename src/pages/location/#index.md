@@ -3,8 +3,8 @@ title: Old Pines location and activities
 menu: location
 description: Old Pines is nestled in the heart of the Scottish Highlands close to Ben Nevis and Loch Ness.
 quote: A stunning setting with views of Ben Nevis.
-hero:  v1583683269/hero/ben-nevis
-herop: v1583683269/hero/ben-nevis-p
+hero:  v1584446115/hero/old-pines-mountain
+herop: v1584446115/hero/old-pines-mountain-p
 priority: 0.7
 ---
 
@@ -41,5 +41,26 @@ A selection of Scottish activities and unmissable Highland areas to be experienc
 * [Mallaig](https://www.undiscoveredscotland.co.uk/mallaig/mallaig/index.html)
 * [Arisaig](https://www.undiscoveredscotland.co.uk/arisaig/arisaig/index.html)
 * [Road to the Isles](https://www.road-to-the-isles.org.uk/)
+* numerous [Scotch Whisky distilleries](https://www.bennevisdistillery.com/).
 
 We have our very own walk across the road from the hotel. The [Highbridge Circular walk](https://www.wildlochaber.com/spean-bridge/walking/high-bridge-and-commando-memorial) takes in the old Highbridge ruins, the site of Jacobite rebellion, the remains of the abandoned Gairlochy to Fort Augustus railway, the Commando Memorial, and the dramatic Spean Gorge. An hour and a half of easy, mostly-flat walking is the perfect way to rejuvenate the body, relax the mind, and work up an appetite for [dinner]([root]restaurant/).
+
+<section class="list">
+  <ul>
+    <li>
+      <a href="[imagecdn]f_auto/v1584451167/content/commando-memorial" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584451167/content/commando-memorial" width="300" height="400" class="preview" alt="Spean Bridge Commando Memorial">
+      </a>
+    </li>
+    <li>
+      <a href="[imagecdn]f_auto/v1584451167/content/old-pines-grounds" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584451167/content/old-pines-grounds" width="300" height="400" class="preview" alt="Old Pines hotel grounds and wildlife">
+      </a>
+    </li>
+    <li>
+      <a href="[imagecdn]f_auto/v1584451167/content/scotch-whisky" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584451167/content/scotch-whisky" width="300" height="400" class="preview" alt="Scottish single-malt whisky">
+      </a>
+    </li>
+  </ul>
+</section>

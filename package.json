@@ -21,7 +21,7 @@
     "root": "/new/",
     "devdomain": "http://192.168.1.23:8000",
     "devroot": "/",
-    "themeColor": "#EFE1DE",
+    "themeColor": "#EEEEEE",
     "PWAcache": "::Pines",
     "offlineURL": "offline/",
     "offlineList": "cachedpagelist",

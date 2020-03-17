@@ -3,8 +3,8 @@ title: Old Pines hotel rooms
 menu: rooms
 description: We offer seven restful rooms offering views of Scottish Highlands and Ben Nevis mountain range.
 quote: Beautiful setting, cosy atmosphere, spotlessly clean, and superb food.
-hero:  v1583683271/hero/old-pines-room
-herop: v1583683269/hero/old-pines-room-p
+hero:  v1584443311/hero/old-pines-room-02
+herop: v1584443311/hero/old-pines-room-02-p
 priority: 0.9
 ---
 
@@ -52,7 +52,45 @@ All our rooms offer:
 
 ## Room facilities
 
-All rooms are decorated in calming, natural colours to compliment the wooded surroundings of the hotel. They have beautiful, en-suite, fully-tiled shower rooms with spacious walk-in cubicles supplied with complimentary toiletries and deep, fluffy towels. Room features:
+All rooms are decorated in calming, natural colours to compliment the wooded surroundings of the hotel. They have beautiful, en-suite, fully-tiled shower rooms with spacious walk-in cubicles supplied with complimentary toiletries and deep, fluffy towels.
+
+<section class="list">
+  <ul>
+    <li>
+      <a href="[imagecdn]f_auto/v1584121162/content/old-pines-room" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584121162/content/old-pines-room" width="300" height="400" class="preview" alt="Old Pines hotel bedroom">
+      </a>
+    </li>
+    <li>
+      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-room-02" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-room-02" width="300" height="400" class="preview" alt="Old Pines bedroom and views">
+      </a>
+    </li>
+    <li>
+      <a href="[imagecdn]f_auto/v1584449492/content/old-pines-room-03" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584449492/content/old-pines-room-03" width="300" height="400" class="preview" alt="Old Pines bedroom">
+      </a>
+    </li>
+    <li>
+      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-room-04" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-room-04" width="300" height="400" class="preview" alt="Old Pines hotel twin bedroom">
+      </a>
+    </li>
+    <li>
+      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-room-05" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-room-05" width="300" height="400" class="preview" alt="Old Pines en-suite bathroom">
+      </a>
+    </li>
+    <li>
+      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-lounge" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-lounge" width="300" height="400" class="preview" alt="Old Pines lounge and fireplace">
+      </a>
+    </li>
+  </ul>
+</section>
+
+
+Room features:
 
 * child-friendly
 * free parking on the front driveway

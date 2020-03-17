@@ -1,8 +1,8 @@
 ---
 title: Hoots mon! No t'internet!
 description: You are offline but can access previously-viewed pages.
-hero:  v1583683270/hero/old-pines-hotel
-herop: v1583683270/hero/old-pines-hotel-p
+hero:  v1584446894/hero/old-pines-goat
+herop: v1584446894/hero/old-pines-goat-p
 priority: 0.1
 private: true
 nomenu: true

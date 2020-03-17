@@ -109,7 +109,7 @@ blockquote {
   max-width: 30em;
   padding: 0.8em 1.5em 1em;
   margin: $bqtail 0 0 0;
-  background-color: $color-menu;
+  background-color: $color-bold;
   border-radius: $bqtail;
 
   &::after {
@@ -121,7 +121,7 @@ blockquote {
     bottom: ($bqtail * -2 + 1);
     border-width: $bqtail;
     border-style: solid;
-    border-color: $color-menu $color-menu transparent transparent;
+    border-color: $color-bold $color-bold transparent transparent;
   }
 
   p {
@@ -138,7 +138,7 @@ blockquote:nth-of-type(even) {
   &::after {
     left: auto;
     right: 1.5em;
-    border-color: $color-menu transparent transparent $color-menu;
+    border-color: $color-bold transparent transparent $color-bold;
   }
 
 }

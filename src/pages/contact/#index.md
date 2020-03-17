@@ -2,8 +2,8 @@
 title: Contact Old Pines
 menu: contact
 description: Contact Old Pines to reserve a dining table or book a room for your next vacation.
-hero:  v1583683270/hero/old-pines-hotel
-herop: v1583683270/hero/old-pines-hotel-p
+hero:  v1584444319/hero/old-pines-hotel-02
+herop: v1584444319/hero/old-pines-hotel-02-p
 priority: 0.5
 ---
 

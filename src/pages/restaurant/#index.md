@@ -3,16 +3,32 @@ title: Old Pines restaurant
 menu: restaurant
 description: Old Pines serves delicious, locally-sourced, fresh and seasonal Scottish food and drink in our restaurant overlooking Highlands.
 quote: Lovely food and great location. The staff couldn't have done more.
-hero:  v1583683270/hero/old-pines-restaurant
-herop: v1583683271/hero/old-pines-restaurant-p
+hero:  v1584443650/hero/old-pines-restaurant-02
+herop: v1584443650/hero/old-pines-restaurant-02-p
 priority: 0.8
 ---
 
 Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fresh and seasonal Scottish food in simple and unpretentious way to let the flavours of the food shine through.
 
-> The food was delicious, the setting is stunning, and the garden was a delight for the children. The staff were lovely and very welcoming.
-
-> Lovely food and great location. The staff couldn't have done more. Fantastic service.
+<section class="list">
+  <ul>
+    <li>
+      <a href="[imagecdn]f_auto/v1584450415/content/old-pines-restaurant-outside" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584450415/content/old-pines-restaurant-outside" width="300" height="400" class="preview" alt="Old Pines dining room, outside">
+      </a>
+    </li>
+    <li>
+      <a href="[imagecdn]f_auto/v1584450415/content/old-pines-restaurant" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584450415/content/old-pines-restaurant" width="300" height="400" class="preview" alt="Old Pines restaurant">
+      </a>
+    </li>
+    <li>
+      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-lounge" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-lounge" width="300" height="400" class="preview" alt="Old Pines drinks lounge">
+      </a>
+    </li>
+  </ul>
+</section>
 
 
 ## The best in Scottish dining
@@ -22,6 +38,10 @@ Scotland has a wealth of fresh seafood, wild meats, and foraged flavours to brin
 We cater for gluten-free, lactose/dairy-free, vegan, and vegetarian diets. If you have any other dietary requirements, please let us know in advance and we will be happy to cater for you.
 
 A selection of Scots Whisky, ales, beers, wines, cocktails, and other drinks are available in the lounge area before dinner. A full wine list is provided to compliment your meal.
+
+> The food was delicious, the setting is stunning, and the garden was a delight for the children. The staff were lovely and very welcoming.
+
+> Lovely food and great location. The staff couldn't have done more. Fantastic service.
 
 
 ## Opening times

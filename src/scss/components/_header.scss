@@ -1,11 +1,11 @@
 // header
 picture.hero img {
 
-  position: absolute; // fixed or absolute
+  position: fixed; // fixed or absolute
   width: 100%;
   height: 100vh;
+  object-position: center bottom;
   object-fit: cover;
-  border-bottom: 3px solid $color-bar;
   overflow: hidden;
   z-index: -1;
 
@@ -14,7 +14,7 @@ picture.hero img {
 header {
 
   height: 100vh;
-  padding: 6em 0;
+  padding: 60vh 0 0 0;
 
   ul, li {
     @include reset-list;
@@ -27,13 +27,14 @@ header {
   }
 
   li {
-    margin: 0.5em;
+    margin: 0.3em;
   }
 
   a.button:link, a.button:visited {
     margin-top: 0;
   }
 
+/*
   q {
     display: block;
     max-width: 75%;
@@ -57,9 +58,11 @@ header {
       font-size: 2em;
     }
   }
+*/
 
 }
 
+/*
 #contact, #offline, #error {
 
   header {
@@ -67,3 +70,4 @@ header {
   }
 
 }
+*/
