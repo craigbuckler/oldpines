@@ -1,5 +1,5 @@
 ---
-title: 404 reasons to visit Scotland
+title: 404 Reasons to Visit Scotland
 description: Sorry, but the page you are looking for could not be found?
 hero:  v1584446492/hero/old-pines-geese
 herop: v1584446491/hero/old-pines-geese-p

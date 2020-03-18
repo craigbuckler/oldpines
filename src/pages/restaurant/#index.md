@@ -1,5 +1,5 @@
 ---
-title: Old Pines restaurant
+title: Old Pines Restaurant
 menu: restaurant
 description: Old Pines serves delicious, locally-sourced, fresh and seasonal Scottish food and drink in our restaurant overlooking Highlands.
 quote: Lovely food and great location. The staff couldn't have done more.
@@ -30,8 +30,10 @@ Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fres
   </ul>
 </section>
 
+> The food was delicious, the setting is stunning, and the garden was a delight for the children. The staff were lovely and very welcoming.
 
-## The best in Scottish dining
+
+## The Best in Scottish Dining
 
 Scotland has a wealth of fresh seafood, wild meats, and foraged flavours to bring food to life.
 
@@ -39,12 +41,10 @@ We cater for gluten-free, lactose/dairy-free, vegan, and vegetarian diets. If yo
 
 A selection of Scots Whisky, ales, beers, wines, cocktails, and other drinks are available in the lounge area before dinner. A full wine list is provided to compliment your meal.
 
-> The food was delicious, the setting is stunning, and the garden was a delight for the children. The staff were lovely and very welcoming.
-
 > Lovely food and great location. The staff couldn't have done more. Fantastic service.
 
 
-## Opening times
+## Opening Times
 
 We are also open for tea, coffee, drinks, light snacks, and cakes all day in the lounge and restaurant area. Please [book]([root]contact/) for parties of six or more.
 

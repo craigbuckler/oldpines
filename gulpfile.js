@@ -293,10 +293,7 @@
   // JavaScript settings
   const jsCfg = {
       src         : dir.src + 'js/main/**/*',
-      srcModule   : [
-        dir.module + 'toggled.js/dist/toggled.js',
-        dir.module + 'revealer.js/dist/revealer.js'
-      ],
+      srcModule   : [],
       build       : dir.build + 'js/',
       filename    : `main-${sitemeta.versionFile}.js`
     },

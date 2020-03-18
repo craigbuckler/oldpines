@@ -73,7 +73,7 @@ nav#bar {
   left: 0;
   right: 0;
   color: $color-menu;
-  background-color: rgba($color-back, 0.9);
+  background-color: rgba($color-back, 0.95);
   border-bottom: 3px solid $color-bar;
 
   ul {
@@ -150,8 +150,12 @@ nav#bar {
 
 @media (min-width: map-get($breakpoint, 'medium')) and (min-height: $respondH) {
 
-  main .content {
-    margin-top: -5rem;
+  header, picture.hero img {
+    height: calc(100vh - 5rem);
+  }
+
+  header ul {
+    bottom: 10vh;
   }
 
   #menutext {

@@ -1,26 +1,34 @@
 // header
 picture.hero img {
 
-  position: fixed; // fixed or absolute
+  position: absolute; // fixed or absolute
   width: 100%;
   height: 100vh;
-  object-position: center bottom;
   object-fit: cover;
+  border-bottom: 3px solid $color-bar;
   overflow: hidden;
   z-index: -1;
+
+  #restaurant &, #privacy & {
+    object-position: center top;
+  }
 
 }
 
 header {
 
+  position: relative;
   height: 100vh;
-  padding: 60vh 0 0 0;
 
   ul, li {
     @include reset-list;
   }
 
   ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 18vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,40 +42,5 @@ header {
     margin-top: 0;
   }
 
-/*
-  q {
-    display: block;
-    max-width: 75%;
-    font-size: 3.5vmax;
-    font-weight: 600;
-    font-style: italic;
-    line-height: 1.2;
-    text-align: center;
-    padding: 0.2em;
-    margin: 1em auto;
-    color: $green-dark;
-    background-color: rgba(255,255,255,0.65);
-    backdrop-filter: blur(3px);
-    text-shadow:
-      -1px -1px 2px rgba(255,255,255,0.5),
-       1px  1px 2px rgba(255,255,255,0.5),
-      -1px  1px 2px rgba(255,255,255,0.5),
-       1px -1px 2px rgba(255,255,255,0.5);
-
-    @include respond('large') {
-      font-size: 2em;
-    }
-  }
-*/
-
 }
 
-/*
-#contact, #offline, #error {
-
-  header {
-    height: 40vh;
-  }
-
-}
-*/

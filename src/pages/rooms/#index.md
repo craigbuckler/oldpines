@@ -1,5 +1,5 @@
 ---
-title: Old Pines hotel rooms
+title: Old Pines Hotel Rooms
 menu: rooms
 description: We offer seven restful rooms offering views of Scottish Highlands and Ben Nevis mountain range.
 quote: Beautiful setting, cosy atmosphere, spotlessly clean, and superb food.
@@ -14,35 +14,35 @@ All our rooms offer:
 
 <div class="list service">
   <ul>
-    <li data-revealer="zoomup">
+    <li>
       <img src="/images/svg/wifi.svg" data-inline="1" alt="" />
       free wifi
     </li>
-    <li data-revealer="zoomup">
+    <li>
       <img src="/images/svg/phone.svg" data-inline="1" alt="" />
       direct telephone
     </li>
-    <li data-revealer="zoomup">
+    <li>
       <img src="/images/svg/shower.svg" data-inline="1" alt="" />
       en-suite shower room
     </li>
-    <li data-revealer="zoomup">
+    <li>
       <img src="/images/svg/drink.svg" data-inline="1" alt="" />
       tea &amp; coffee facilities
     </li>
-    <li data-revealer="zoomup">
+    <li>
       <img src="/images/svg/tv.svg" data-inline="1" alt="TV and DVD" />
       flat-screen television
     </li>
-    <li data-revealer="zoomup">
+    <li>
       <img src="/images/svg/book.svg" data-inline="1" alt="" />
       books &amp; movies
     </li>
-    <li data-revealer="zoomup">
+    <li>
       <img src="/images/svg/wheelchair.svg" data-inline="1" alt="" />
       disabled access
     </li>
-    <li data-revealer="zoomup">
+    <li>
       <img src="/images/svg/car.svg" data-inline="1" alt="" />
       free parking
     </li>
@@ -50,15 +50,15 @@ All our rooms offer:
 </div>
 
 
-## Room facilities
+## Room Facilities
 
 All rooms are decorated in calming, natural colours to compliment the wooded surroundings of the hotel. They have beautiful, en-suite, fully-tiled shower rooms with spacious walk-in cubicles supplied with complimentary toiletries and deep, fluffy towels.
 
 <section class="list">
   <ul>
     <li>
-      <a href="[imagecdn]f_auto/v1584121162/content/old-pines-room" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584121162/content/old-pines-room" width="300" height="400" class="preview" alt="Old Pines hotel bedroom">
+      <a href="[imagecdn]f_auto/v1584544250/content/old-pines-room" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584544250/content/old-pines-room" width="300" height="400" class="preview" alt="Old Pines hotel bedroom">
       </a>
     </li>
     <li>
@@ -67,8 +67,8 @@ All rooms are decorated in calming, natural colours to compliment the wooded sur
       </a>
     </li>
     <li>
-      <a href="[imagecdn]f_auto/v1584449492/content/old-pines-room-03" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584449492/content/old-pines-room-03" width="300" height="400" class="preview" alt="Old Pines bedroom">
+      <a href="[imagecdn]f_auto/v1584543686/content/old-pines-room-03.jpg" class="progressive replace">
+        <img src="[imagecdn]f_auto,c_scale,w_30/v1584543686/content/old-pines-room-03.jpg" width="300" height="400" class="preview" alt="Old Pines bedroom">
       </a>
     </li>
     <li>
@@ -111,18 +111,18 @@ Prices start from &pound;60 per person per night. Check-in from 2:00pm.
 
 > Fantastic service from the staff, comfortable rooms with spectacular surroundings and views.
 
-> Beautiful setting, cosy atmosphere, comfy beds, spotlessly clean rooms, superb food, and friendly staff.
 
-
-## Family rooms
+## Family Rooms
 
 Two of our bedrooms are family rooms:
 
 1. A family suite with a king-size bed in the main room, and one or two single beds in a separate adjoining room.
 1. A large room with a super-king-size bed and one single bed.
 
+> Beautiful setting, cosy atmosphere, comfy beds, spotlessly clean rooms, superb food, and friendly staff.
 
-## Disabled access
+
+## Disabled Access
 
 All rooms are on the ground floor with wheelchair access. All bathrooms provide disabled facilities.
 

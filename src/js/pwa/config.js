@@ -5,6 +5,11 @@
 // configuration
 'use strict';
 
+/*
+  TODO: install all pages and images
+  make background of header image grey
+*/
+
 const
   domain = '/* @echo rootURL */',
   domaincdn = '/* @echo imagecdn */',

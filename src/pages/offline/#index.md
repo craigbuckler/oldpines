@@ -1,5 +1,5 @@
 ---
-title: Hoots mon! No t'internet!
+title: Hoots Mon! No t'Internet!
 description: You are offline but can access previously-viewed pages.
 hero:  v1584446894/hero/old-pines-goat
 herop: v1584446894/hero/old-pines-goat-p

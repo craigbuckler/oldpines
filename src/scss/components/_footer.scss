@@ -1,6 +1,7 @@
 // page footer
 footer {
 
+  margin-top: 3rem;
   background-color: $color-foot;
   border-top: 3px solid $color-bar;
 
@@ -9,9 +10,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 0 $contentPad;
-    margin-top: -3px;
-    border-top: 3em solid $color-back;
   }
 
   ul, li {

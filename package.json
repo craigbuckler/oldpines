@@ -78,8 +78,6 @@
     "metalsmith-word-count": "0.0.4",
     "postcss-assets": "5.0.0",
     "postcss-import": "12.0.1",
-    "revealer.js": "1.1.0",
-    "toggled.js": "1.1.1",
     "vinyl-ftp": "0.6.1"
   },
   "devDependencies": {
