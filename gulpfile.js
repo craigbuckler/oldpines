@@ -376,6 +376,23 @@
   exports.jspwa = jspwa;
 
 
+  // download folder
+  const downloadCfg = {
+    src: dir.src + 'download/**/*',
+    build: dir.build + 'download/'
+  };
+
+  // download processing
+  function download() {
+
+    return gulp.src(downloadCfg.src)
+      .pipe(newer(downloadCfg.build))
+      .pipe(gulp.dest(downloadCfg.build));
+
+  }
+  exports.download = download;
+
+
   // browser-sync options
   const syncOpts = {
     server: {
@@ -439,7 +456,7 @@
 
 
   // run all tasks immediately
-  exports.build = gulp.series(images, gulp.parallel(rootprocess, rootimages, html, css, js, jssingle, jspwa));
+  exports.build = gulp.series(images, gulp.parallel(rootprocess, rootimages, html, css, js, jssingle, jspwa, download));
 
 
   // default task

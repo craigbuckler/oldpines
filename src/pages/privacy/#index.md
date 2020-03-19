@@ -6,7 +6,7 @@ quote: Beautiful location. Spotless rooms. The food is truly outstanding.
 hero:  v1584448163/hero/old-pines-lounge-02
 herop: v1584448163/hero/old-pines-lounge-02-p
 priority: 0.1
-private: true
+private: false
 nomenu: true
 ---
 

@@ -3,7 +3,7 @@
 
   // requires: lib.js
 */
-/* global ow gtag */
+/* global ow ma */
 
 (function() {
 
@@ -115,7 +115,7 @@
         this.form.classList.add(this.cfg.successClass);
 
         // analytics event
-        if (typeof gtag !== 'undefined') gtag('event', 'contact', { 'method': 'form' });
+        if (ma && ma.trackEvent) ma.trackEvent('contact', 'form');
 
       }
 

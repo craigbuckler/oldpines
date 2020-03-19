@@ -98,6 +98,7 @@ picture, img {
   height: auto;
   max-width: 100%;
   @include reset;
+  border: 0 none;
   user-select: none;
 }
 
