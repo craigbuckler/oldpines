@@ -5,6 +5,7 @@
     srcset="<%- imagecdn %>c_scale,w_250/<%- herop %> 250w, <%- imagecdn %><%- herop %> 500w"
   />
   <img
+    crossorigin="anonymous"
     src="<%- imagecdn %>f_auto,c_scale,w_400/<%- hero %>"
     srcset="<%- imagecdn %>c_scale,w_800/<%- hero %> 800w, <%- imagecdn %><%- hero %> 1200w"
     alt="<%= hero.replace(/.+\/([^/].+)$/, '$1').trim(); %>" />

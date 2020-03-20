@@ -14,7 +14,7 @@ Browser API Polyfills
   // CustomEvent (IE)
   if (typeof window.CustomEvent === 'function') return;
 
-  function CustomEvent (event, params) {
+  function CustomEvent(event, params) {
     params = params || { bubbles: false, cancelable: false, detail: undefined };
     var evt = document.createEvent('CustomEvent');
     evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);

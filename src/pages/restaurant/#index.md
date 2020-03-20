@@ -14,21 +14,9 @@ Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fres
 
 <section class="list">
   <ul>
-    <li>
-      <a href="[imagecdn]f_auto/v1584450415/content/old-pines-restaurant-outside" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584450415/content/old-pines-restaurant-outside" width="300" height="400" class="preview" alt="Old Pines dining room, outside">
-      </a>
-    </li>
-    <li>
-      <a href="[imagecdn]f_auto/v1584450415/content/old-pines-restaurant" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584450415/content/old-pines-restaurant" width="300" height="400" class="preview" alt="Old Pines restaurant">
-      </a>
-    </li>
-    <li>
-      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-lounge" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-lounge" width="300" height="400" class="preview" alt="Old Pines drinks lounge">
-      </a>
-    </li>
+    <li><img src="[imagecdn]f_auto/v1584450415/content/old-pines-restaurant-outside" width="300" height="400" alt="Old Pines dining room, outside" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584450415/content/old-pines-restaurant" width="300" height="400" alt="Old Pines restaurant" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584448921/content/old-pines-lounge" width="300" height="400" alt="Old Pines drinks lounge" crossorigin="anonymous" loading="lazy" /></li>
   </ul>
 </section>
 

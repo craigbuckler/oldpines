@@ -11,7 +11,7 @@ priority: 0.7
 The Scottish Highlands is the last remaining true wilderness in the UK. Home to the highest mountains, largest lochs, and most stunning scenery, Old Pines hotel surroundings are to be explored whether you are a cyclist, a walker, or just driving.
 
 <div class="maxwidth">
-  <iframe src="https://maps.google.com/maps?q=Old%20Pines%20Hotel,%20Spean%20Bridge%20PH64%204EG&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="100%" height="500px" loading="lazy" scrolling="no" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+  <iframe src="https://maps.google.com/maps?q=Old%20Pines%20Hotel,%20Spean%20Bridge%20PH64%204EG&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="100%" height="500px" loading="lazy" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" class="map"></iframe>
 </div>
 
 ## Old Pines Directions from Inverness
@@ -58,21 +58,9 @@ We have our very own walk across the road from the hotel. The [Highbridge Circul
 
 <section class="list">
   <ul>
-    <li>
-      <a href="[imagecdn]f_auto/v1584451167/content/commando-memorial" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584451167/content/commando-memorial" width="300" height="400" class="preview" alt="Spean Bridge Commando Memorial">
-      </a>
-    </li>
-    <li>
-      <a href="[imagecdn]f_auto/v1584451167/content/old-pines-grounds" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584451167/content/old-pines-grounds" width="300" height="400" class="preview" alt="Old Pines hotel grounds and wildlife">
-      </a>
-    </li>
-    <li>
-      <a href="[imagecdn]f_auto/v1584451167/content/scotch-whisky" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584451167/content/scotch-whisky" width="300" height="400" class="preview" alt="Scottish single-malt whisky">
-      </a>
-    </li>
+    <li><img src="[imagecdn]f_auto/v1584451167/content/commando-memorial" width="300" height="400" alt="Spean Bridge Commando Memorial" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584451167/content/old-pines-grounds" width="300" height="400" alt="Old Pines hotel grounds and wildlife" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584451167/content/scotch-whisky" width="300" height="400" alt="Scottish single-malt whisky" crossorigin="anonymous" loading="lazy" /></li>
   </ul>
 </section>
 

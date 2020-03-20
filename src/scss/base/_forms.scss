@@ -1,5 +1,5 @@
 // form styling
-$field-back: lighten($grey-lite, 15%);
+$field-back: lighten($green-lite, 40%);
 $field-outr: $grey-main;
 $field-hint: $color-logo;
 $field-help: #c00;
@@ -62,6 +62,7 @@ input, textarea, button {
 
   &:focus {
     background-color: $field-back;
+    border-color: $green-main;
   }
 
 }
@@ -96,8 +97,8 @@ button {
   }
 
   &:focus {
-      outline: 2px dotted $field-outr;
-      outline-offset: 10px;
+    outline: 2px dotted $field-outr;
+    outline-offset: 10px;
   }
 
   &::-moz-focus-inner {
