@@ -25,6 +25,10 @@ main {
 
 iframe {
   height: 60vh;
+
+  &.map {
+    background: center / cover no-repeat resolve('images/content/map.jpg');
+  }
 }
 
 .wshow {

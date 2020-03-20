@@ -17,12 +17,19 @@ const
     'css/main-/* @echo versionFile */.css',
     'js/main-/* @echo versionFile */.js',
     'js/offlinepage-/* @echo versionFile */.js',
+    'images/old-pines-logo.png',
+    'images/old-pines-logo-2.png'
   ].map(u => '/* @echo rootpath */' + u).concat(offlineURL),
 
   installFilesDesirable = [
-    'f_auto/v1583684035/old-pines-logo',
-    'f_auto/v1584372385/old-pines-logo-2.png'
-  ].map(u => domaincdn + u);
+    'contact/',
+    'rooms/',
+    'restaurant/',
+    'location/',
+    'privacy/',
+    'favicon.ico',
+    'favicon.png'
+  ].map(u => '/* @echo rootpath */' + u);
 
 
 // install event
@@ -61,7 +68,6 @@ self.addEventListener('fetch', event => {
 
   let url = event.request.url;
 
-  console.log('cache fetch  : ', url);
   event.respondWith(
 
     caches.open(CACHE)
@@ -70,6 +76,8 @@ self.addEventListener('fetch', event => {
         return cache.match(event.request)
           .then(response => {
 
+            console.log('cache', (response ? 'found  :' : 'missing:'), url);
+
             // make network request if not in cache or is HTML
             let network;
             if (!response || (url.startsWith(domain) && event.request.headers.get('Accept').includes('text/html'))) {
@@ -77,9 +85,11 @@ self.addEventListener('fetch', event => {
               network = fetch(event.request)
                 .then(newreq => {
 
-                  console.log('network fetch: ', url);
                   if (newreq && newreq.ok && !url.startsWith('https://www.optimalworks.') && (url.startsWith(domain) || url.startsWith(domaincdn) || url.startsWith('https://fonts.'))) {
+
+                    // cache valid response
                     cache.put(event.request, newreq.clone());
+
                   }
 
                   return newreq;

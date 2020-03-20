@@ -13,20 +13,20 @@ Welcome to Old Pines. We are a small hotel and restaurant set in seven acres of 
 <nav class="list">
   <ul>
     <li>
-      <a href="[root]rooms/" data-href="[imagecdn]f_auto/v1584544250/content/old-pines-room" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584544250/content/old-pines-room" width="300" height="400" class="preview" alt="Old Pines bedroom">
+      <a href="[root]rooms/">
+        <img src="[imagecdn]f_auto/v1584544250/content/old-pines-room" width="300" height="400" alt="Old Pines bedroom" crossorigin="anonymous" loading="lazy" />
         <h2>Rest</h2>
       </a>
     </li>
     <li>
-      <a href="[root]restaurant/" data-href="[imagecdn]f_auto/v1584121162/content/old-pines-food" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584121162/content/old-pines-food" width="300" height="400" class="preview" alt="Old Pines food">
+      <a href="[root]restaurant/">
+        <img src="[imagecdn]f_auto/v1584121162/content/old-pines-food" width="300" height="400" alt="Old Pines food" crossorigin="anonymous" loading="lazy" />
         <h2>Indulge</h2>
       </a>
     </li>
     <li>
-      <a href="[root]location/" data-href="[imagecdn]f_auto/v1584121162/content/old-pines-drive" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584121162/content/old-pines-drive" width="300" height="400" class="preview" alt="Old Pines Highlands">
+      <a href="[root]location/">
+        <img src="[imagecdn]f_auto/v1584121162/content/old-pines-drive" width="300" height="400" alt="Old Pines Highlands" crossorigin="anonymous" loading="lazy" />
         <h2>Renew</h2>
       </a>
     </li>

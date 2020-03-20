@@ -56,36 +56,12 @@ All rooms are decorated in calming, natural colours to compliment the wooded sur
 
 <section class="list">
   <ul>
-    <li>
-      <a href="[imagecdn]f_auto/v1584544250/content/old-pines-room" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584544250/content/old-pines-room" width="300" height="400" class="preview" alt="Old Pines hotel bedroom">
-      </a>
-    </li>
-    <li>
-      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-room-02" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-room-02" width="300" height="400" class="preview" alt="Old Pines bedroom and views">
-      </a>
-    </li>
-    <li>
-      <a href="[imagecdn]f_auto/v1584543686/content/old-pines-room-03.jpg" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584543686/content/old-pines-room-03.jpg" width="300" height="400" class="preview" alt="Old Pines bedroom">
-      </a>
-    </li>
-    <li>
-      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-room-04" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-room-04" width="300" height="400" class="preview" alt="Old Pines hotel twin bedroom">
-      </a>
-    </li>
-    <li>
-      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-room-05" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-room-05" width="300" height="400" class="preview" alt="Old Pines en-suite bathroom">
-      </a>
-    </li>
-    <li>
-      <a href="[imagecdn]f_auto/v1584448921/content/old-pines-lounge" class="progressive replace">
-        <img src="[imagecdn]f_auto,c_scale,w_30/v1584448921/content/old-pines-lounge" width="300" height="400" class="preview" alt="Old Pines lounge and fireplace">
-      </a>
-    </li>
+    <li><img src="[imagecdn]f_auto/v1584544250/content/old-pines-room" width="300" height="400" alt="Old Pines hotel bedroom" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584448921/content/old-pines-room-02" width="300" height="400" alt="Old Pines bedroom and views" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584543686/content/old-pines-room-03" width="300" height="400" alt="Old Pines bedroom" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584448921/content/old-pines-room-04" width="300" height="400" alt="Old Pines hotel twin bedroom" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584448921/content/old-pines-room-05" width="300" height="400" alt="Old Pines en-suite bathroom" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584448921/content/old-pines-lounge" width="300" height="400" alt="Old Pines lounge and fireplace" crossorigin="anonymous" loading="lazy" /></li>
   </ul>
 </section>
 

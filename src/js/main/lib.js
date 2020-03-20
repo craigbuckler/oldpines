@@ -83,7 +83,7 @@ ow.lib = (function() {
     return doc.querySelectorAll(sel);
   }
 
-
+/*
   // closest
   function closest(type, node) {
     type = type.toUpperCase();
@@ -95,7 +95,7 @@ ow.lib = (function() {
     return pNode;
   }
 
-/*
+
   // remove all child nodes
   function empty(node) {
     while (node.lastChild) node.removeChild(node.lastChild);
@@ -423,7 +423,7 @@ ow.lib = (function() {
     className: className,
     query: query,
     queryAll: queryAll,
-    closest: closest,
+    //closest: closest,
     //empty: empty,
     //setSelect: setSelect,
     //appliedStyle: appliedStyle,
