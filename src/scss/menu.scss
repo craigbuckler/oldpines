@@ -1,0 +1,183 @@
+// menu styles
+
+// helpers
+@import 'helpers/_variables';
+@import 'helpers/_mixins';
+
+// base
+@import 'base/_normalize';
+
+:root {
+  --col-text: #333;
+  --col-back: #fff;
+  --col-body: #555;
+  font-size: calc(16px + 0.3vmin);
+}
+
+*, *:before, *:after {
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  touch-action: manipulation;
+  overflow: hidden;
+}
+
+body {
+  font-family: $font-main;
+  font-size: 1em;
+  font-weight: 300;
+  color: var(--col-text);
+  background-color: var(--col-body);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  scroll-snap-type: y proximity;
+}
+
+article {
+  clear: both;
+  position: relative;
+  width: 92vw;
+  max-width: 50em;
+  min-height: 92vh;
+  padding: 8vh 8vw;
+  margin: 4vh auto;
+  background-color: var(--col-back);
+  border: 1px solid var(--col-text);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  z-index: 0;
+
+  @media (min-width: map-get($breakpoint, 'medium')) and (min-height: $respondH) {
+    scroll-snap-align: start;
+    scroll-margin-block-start: 4vh;
+  }
+}
+
+h1, h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 3em;
+}
+
+#breakfast h1 {
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+#breakfast h2, h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: none;
+  margin-top: 2em;
+}
+
+p, ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 1em;
+}
+
+table {
+  width: 100%;
+	font-size: 1em;
+  table-layout: fixed;
+  margin: 3vh 0;
+  border-spacing: 0;
+	border-collapse: collapse;
+	empty-cells: show;
+	user-select: none;
+}
+
+thead {
+  display: none;
+}
+
+td {
+  padding: 2vh 0;
+  vertical-align: bottom;
+}
+
+td:last-child {
+  width: 6em;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  padding-left: 1em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  width: 25%;
+  border: none;
+  border-top: #000 double 3px;
+  margin: 3em auto;
+}
+
+#back {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 12vmax;
+  padding: 2vmax 3vmax;
+  margin: 10px 30px;
+  background-color: rgba(52,101,52,0.3);
+  border-radius: 50%;
+
+  span {
+    display: none;
+  }
+}
+
+@media print {
+
+  :root {
+    font-size: 16px;
+  }
+
+  * {
+    color: #000 !important;
+    background-color: #fff !important;
+  }
+
+  html, body, main {
+    height: auto;
+    overflow: visible;
+  }
+
+  article {
+    min-height: auto;
+    @include reset;
+    background: #fff;
+    border: 0 none;
+    box-shadow: none;
+  }
+
+  h1, h2 {
+    margin-top: 3em;
+  }
+
+  td {
+    padding: 0.5em 0;
+  }
+
+  article:nth-child(n+2) img, #back {
+    display: none;
+  }
+
+}

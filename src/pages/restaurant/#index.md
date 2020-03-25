@@ -10,7 +10,9 @@ priority: 0.8
 
 Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fresh and seasonal Scottish food in simple and unpretentious way to let the flavours of the food shine through.
 
-<a href="[root]download/Old-Pines-menu.pdf" class="icon copy">View a sample dinner menu&hellip;</a>
+<a href="[root]menu/dinner" class="icon copy">View a sample dinner menu&hellip;</a>
+
+<a href="[root]menu/breakfast/" class="icon copy">View a sample breakfast menu&hellip;</a>
 
 <section class="list">
   <ul>
