@@ -50,6 +50,7 @@
     preprocess    = require('gulp-preprocess'),
     deporder      = require('gulp-deporder'),
     concat        = require('gulp-concat'),
+    rename        = require('gulp-rename'),
     terser        = require('gulp-terser'),
 
     // Metalsmith and plugins
@@ -248,10 +249,9 @@
 
   // CSS settings
   const cssCfg = {
-    src         : dir.src + 'scss/main.scss',
+    src         : dir.src + 'scss/*.scss',
     watch       : dir.src + 'scss/**/*',
     build       : dir.build + 'css/',
-    filename    : `main-${sitemeta.versionFile}.css`,
     sassOpts: {
       outputStyle     : 'nested',
       imagePath       : '/images/',
@@ -280,9 +280,8 @@
       .pipe(sass(cssCfg.sassOpts).on('error', sass.logError))
       .pipe(preprocess({ extension: 'js', context: sitemeta }))
       .pipe(postcss(cssCfg.processors))
-      .pipe(concat(cssCfg.filename))
       .pipe(sourcemaps ? sourcemaps.write() : noop())
-      //.pipe(cssCfg.filename ? rename(cssCfg.filename) : noop())
+      .pipe(rename(path => path.basename += `-${sitemeta.versionFile}`))
       .pipe(gulp.dest(cssCfg.build))
       .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
 
@@ -376,23 +375,6 @@
   exports.jspwa = jspwa;
 
 
-  // download folder
-  const downloadCfg = {
-    src: dir.src + 'download/**/*',
-    build: dir.build + 'download/'
-  };
-
-  // download processing
-  function download() {
-
-    return gulp.src(downloadCfg.src)
-      .pipe(newer(downloadCfg.build))
-      .pipe(gulp.dest(downloadCfg.build));
-
-  }
-  exports.download = download;
-
-
   // browser-sync options
   const syncOpts = {
     server: {
@@ -456,7 +438,7 @@
 
 
   // run all tasks immediately
-  exports.build = gulp.series(images, gulp.parallel(rootprocess, rootimages, html, css, js, jssingle, jspwa, download));
+  exports.build = gulp.series(images, gulp.parallel(rootprocess, rootimages, html, css, js, jssingle, jspwa));
 
 
   // default task

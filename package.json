@@ -1,6 +1,6 @@
 {
   "name": "oldpines",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Old Pines Hotel and Restaurant, Spean Bridge, near Fort William, Ben Nevis, and Loch Ness in the highlands of Scotland.",
   "author": "Imogen Dally",
   "main": "gulp build",
@@ -51,7 +51,7 @@
     "> 2%"
   ],
   "dependencies": {
-    "autoprefixer": "9.7.4",
+    "autoprefixer": "9.7.5",
     "css-mqpacker": "7.0.0",
     "cssnano": "4.1.10",
     "del": "5.1.0",
@@ -63,6 +63,7 @@
     "gulp-noop": "1.0.0",
     "gulp-postcss": "8.0.0",
     "gulp-preprocess": "3.0.3",
+    "gulp-rename": "2.0.0",
     "gulp-sass": "4.0.2",
     "gulp-sourcemaps": "2.6.5",
     "gulp-terser": "1.2.0",
