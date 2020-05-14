@@ -3,8 +3,8 @@ title: Old Pines Hotel Rooms
 menu: rooms
 description: We offer seven restful rooms offering views of Scottish Highlands and Ben Nevis mountain range.
 quote: Beautiful setting, cosy atmosphere, spotlessly clean, and superb food.
-hero:  v1584443311/hero/old-pines-room-02
-herop: v1584443311/hero/old-pines-room-02-p
+hero:  v1589283502/hero/old-pines-room-03
+herop: v1589283502/hero/old-pines-room-03-p
 priority: 0.9
 ---
 

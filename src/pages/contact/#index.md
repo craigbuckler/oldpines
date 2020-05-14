@@ -2,8 +2,8 @@
 title: Contact Old Pines, Scotland
 menu: contact
 description: Contact Old Pines to reserve a dining table or book a room for your next vacation.
-hero:  v1584444319/hero/old-pines-hotel-02
-herop: v1584444319/hero/old-pines-hotel-02-p
+hero:  v1589283502/hero/old-pines-hotel-03
+herop: v1589283501/hero/old-pines-hotel-03-p
 priority: 0.5
 ---
 

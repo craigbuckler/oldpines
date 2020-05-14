@@ -1,6 +1,6 @@
 {
   "name": "oldpines",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Old Pines Hotel and Restaurant, Spean Bridge, near Fort William, Ben Nevis, and Loch Ness in the highlands of Scotland.",
   "author": "Imogen Dally",
   "main": "gulp build",
@@ -12,6 +12,7 @@
     "topic": "hotel and restaurant",
     "company": "Old Pines Hotel & Restaurant",
     "book": "https://via.eviivo.com/OldPinesHtlPH34",
+    "voucher": "https://vouchers.giftvouchersolutions.com/vouchersales/Choose.aspx?c=OLDPH",
     "twitter": "",
     "font": "",
     "language": "en-GB",

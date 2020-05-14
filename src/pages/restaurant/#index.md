@@ -3,8 +3,8 @@ title: Old Pines Restaurant
 menu: restaurant
 description: Old Pines serves delicious, locally-sourced, fresh and seasonal Scottish food and drink in our restaurant overlooking Highlands.
 quote: Lovely food and great location. The staff couldn't have done more.
-hero:  v1584443650/hero/old-pines-restaurant-02
-herop: v1584443650/hero/old-pines-restaurant-02-p
+hero:  v1589283502/hero/old-pines-restaurant-03
+herop: v1589283502/hero/old-pines-restaurant-03-p
 priority: 0.8
 ---
 
@@ -16,9 +16,12 @@ Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fres
 
 <section class="list">
   <ul>
-    <li><img src="[imagecdn]f_auto/v1584450415/content/old-pines-restaurant-outside" width="300" height="400" alt="Old Pines dining room, outside" crossorigin="anonymous" loading="lazy" /></li>
-    <li><img src="[imagecdn]f_auto/v1584450415/content/old-pines-restaurant" width="300" height="400" alt="Old Pines restaurant" crossorigin="anonymous" loading="lazy" /></li>
-    <li><img src="[imagecdn]f_auto/v1584448921/content/old-pines-lounge" width="300" height="400" alt="Old Pines drinks lounge" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-starter-02" width="300" height="400" alt="Old Pines restaurant, starter" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main" width="300" height="400" alt="Old Pines restaurant, main course" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main-03" width="300" height="400" alt="Old Pines restaurant, main course" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main-02" width="300" height="400" alt="Old Pines restaurant, main course" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main-05" width="300" height="400" alt="Old Pines restaurant, main course" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-dessert" width="300" height="400" alt="Old Pines restaurant, dessert" crossorigin="anonymous" loading="lazy" /></li>
   </ul>
 </section>
 

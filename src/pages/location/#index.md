@@ -3,8 +3,8 @@ title: Old Pines Location & Activities
 menu: location
 description: Old Pines is nestled in the heart of the Scottish Highlands close to Ben Nevis and Loch Ness.
 quote: A stunning setting with views of Ben Nevis.
-hero:  v1584446115/hero/old-pines-mountain
-herop: v1584446115/hero/old-pines-mountain-p
+hero:  v1589283501/hero/old-pines-mountain-02
+herop: v1589283502/hero/old-pines-mountain-02-p
 priority: 0.7
 ---
 
@@ -60,6 +60,9 @@ We have our very own walk across the road from the hotel. The [Highbridge Circul
   <ul>
     <li><img src="[imagecdn]f_auto/v1584451167/content/commando-memorial" width="300" height="400" alt="Spean Bridge Commando Memorial" crossorigin="anonymous" loading="lazy" /></li>
     <li><img src="[imagecdn]f_auto/v1584451167/content/old-pines-grounds" width="300" height="400" alt="Old Pines hotel grounds and wildlife" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-starter" width="300" height="400" alt="Old Pines restaurant" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main-04" width="300" height="400" alt="Old Pines restaurant, main course" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584121162/content/old-pines-drive" width="300" height="400" alt="Old Pines driveway" crossorigin="anonymous" loading="lazy" /></li>
     <li><img src="[imagecdn]f_auto/v1584451167/content/scotch-whisky" width="300" height="400" alt="Scottish single-malt whisky" crossorigin="anonymous" loading="lazy" /></li>
   </ul>
 </section>
