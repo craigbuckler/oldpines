@@ -10,6 +10,6 @@ nomenu: true
 
 You are not connected to a wi-fi or mobile network.
 
-Please connect or view a pages you've accessed previously:
+Please connect or view a page you've accessed previously:
 
 <ul id="cachedpagelist"></ul>
