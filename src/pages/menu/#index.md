@@ -11,7 +11,7 @@ nomenu: true
 
 A selection of sample menus serving delicious seasonal food from our restaurant overlooking Highlands:
 
-<a href="[root]menu/dinner" class="icon copy">View dinner menu&hellip;</a>
+<a href="[root]menu/dinner/" class="icon copy">View dinner menu&hellip;</a>
 
 <a href="[root]menu/breakfast/" class="icon copy">View breakfast menu&hellip;</a>
 
