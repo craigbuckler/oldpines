@@ -14,23 +14,24 @@ layout: menu.ejs
 
 # Good Morning
 
-Please help yourself from the buffet to<br />fruit juices, cereals, fresh fruit salad, and yogurt.
+*To start*
 
-
-## Traditional Scottish porridge
-
-Served with fresh cream
-
-
-## Accompanied by
-
-* Granary and white toast
-* Homemade raspberry jam and marmalade
+* Homemade muesli
+* Fresh fruit salad & berries
+* Natural yogurt
+* Prunes
+* Cereals - Crunchy Nut Cornflakes,<br />Fruit &amp; Fibre, or Rice Krispies
+* Traditional porridge with fresh cream
 
 
 ## Beverages
 
-* Tea
+*Juices*
+
+* Orange, Pink grapefruit or Apple
+
+*Tea*
+
 * English Breakfast
 * Earl Grey
 * Darjeeling
@@ -38,7 +39,9 @@ Served with fresh cream
 * Camomile tea
 * Peppermint tea
 * Green tea
-* Coffee
+
+*Coffee*
+
 * Cafetiere of coffee or decaffeinated coffee
 
 
@@ -65,6 +68,7 @@ Fresh free range eggs from our own chickens &ndash;<br />fried, poached, scrambl
 * Grilled tomatoes
 * Mushrooms
 * Potato scone
+* Vegetarian sausage
 
 ---
 
@@ -84,5 +88,11 @@ Scrambled eggs served with organic smoked salmon
 
 Scrambled eggs served with Great Glen smoked venison
 
+---
+
+## Accompanied by
+
+* Granary and white toast
+* Homemade raspberry jam, marmalade, and Scottish honey
 
 </article>
