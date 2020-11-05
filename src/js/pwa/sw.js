@@ -15,6 +15,8 @@ const
     '',
     'manifest.webmanifest',
     'css/main-/* @echo versionFile */.css',
+    'css/menu-/* @echo versionFile */.css',
+    'css/booking-/* @echo versionFile */.css',
     'js/main-/* @echo versionFile */.js',
     'js/offlinepage-/* @echo versionFile */.js',
     'images/old-pines-logo.png',

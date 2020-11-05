@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="<%= language %>" itemscope itemtype="http://schema.org/WebPage">
+<head>
+
+  <meta charset="UTF-8">
+  <title><%= title %><% if (title !== name) { %> | <%= name %><% } %></title>
+
+  <!-- styles -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="<%- root %>css/booking-<%- versionFile %>.css">
+
+  <!-- mobile settings -->
+  <link rel="manifest" href="<%- rootURL %>manifest.webmanifest">
+  <meta name="theme-color" content="<%= themeColor %>">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="<%- rootURL %>favicon.png">
+  <link rel="shortcut icon" href="<%- rootURL %>favicon.ico">
+
+  <!-- page information -->
+  <meta name="application-name" content="<%= name %>">
+  <meta name="description" content="<%= description %>">
+  <meta name="keywords" content="<%= keywords %>">
+  <meta name="page-topic" content="<%= topic %>">
+  <meta name="author" content="<%= author %>">
+  <meta name="owner" content="<%= author %>">
+  <meta name="revisit-after" content="7 days" />
+  <meta name="robots" content="index, follow">
+
+</head>
+<body<%- (menu ? ' id="' + menu + '"' : '') %>>
+<main itemprop="mainContentOfPage">
+
+  <%- contents %>
+
+</main>
+
+<section id="opfoot">
+  <ul>
+    <li><a href="[root]"><img src="<%- root %>images/old-pines-logo.png" alt="<%= name %>" width="400" height="129" /></a></li>
+    <li><a href="[root]contact/" class="icon email">enquiries {at} oldpines dot co dot uk</a></li>
+    <li><a href="tel:+44-1397-712324" class="icon phone">+44 1397 712324</a></li>
+    <li><a href="[root]" class="icon home">home</a></li>
+    <li><a href="[root]rooms/" class="icon rooms">rooms</a></li>
+    <li><a href="[root]location/" class="icon location">location</a></li>
+    <li><a href="[root]contact/" class="icon contact">contact us</a></li>
+  </ul>
+</section>
+
+<%- include('partials/foot.html'); %>
