@@ -1,0 +1,73 @@
+// booking form styles
+
+// helpers
+@import 'helpers/_variables';
+@import 'helpers/_mixins';
+@import 'base/_icons';
+
+@include icon('home');
+@include icon('rooms');
+
+$bookback: #fff;
+
+html, body {
+  @include reset;
+  background-color: $bookback;
+}
+
+#bookingWidget {
+
+  @include reset;
+
+  footer {
+    display: none;
+  }
+
+}
+
+#opfoot {
+
+  display: flex;
+  justify-content: center;
+  font-family: $font-main;
+  font-size: $font-size;
+  font-weight: 300;
+  line-height: 1.62;
+  padding: 3em 3vw;
+  margin: 0;
+  color: $color-fore;
+
+  ul, li {
+    @include reset-list;
+  }
+
+  ul {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+
+  a:link, a:visited, .linkable {
+    color: $color-link;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a {
+
+    &:hover {
+      color: $color-lhvr;
+    }
+
+    &:focus {
+      outline: 2px dotted $color-lhvr;
+      outline-offset: 10px;
+    }
+
+  }
+
+}

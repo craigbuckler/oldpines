@@ -1,6 +1,6 @@
 {
   "name": "oldpines",
-  "version": "1.3.2",
+  "version": "1.4.1",
   "description": "Old Pines Hotel and Restaurant, Spean Bridge, near Fort William, Ben Nevis, and Loch Ness in the highlands of Scotland.",
   "author": "Imogen Dally",
   "main": "gulp build",
@@ -11,7 +11,7 @@
     "keywords": "Old Pines, hotel, lodging, accommodation, holiday, vacation, stay, rooms, restaurant, food, bar, dining, breakfast, lunch, dinner, catering, Spean Bridge, Fort William, Ben Nevis, Inverness, Loch Ness, Loch Lochy, Great Glen, highlands, Scotland, Scottish, book online",
     "topic": "hotel and restaurant",
     "company": "Old Pines Hotel & Restaurant",
-    "book": "https://via.eviivo.com/OldPinesHtlPH34",
+    "book": "[root]rooms/booking/",
     "voucher": "https://vouchers.giftvouchersolutions.com/vouchersales/Choose.aspx?c=OLDPH",
     "twitter": "",
     "font": "",
@@ -20,7 +20,7 @@
     "ftphost": "ftp.oldpines.co.uk",
     "ftpdest": "/public_html",
     "root": "/",
-    "devdomain": "http://192.168.1.23:8000",
+    "devdomain": "http://localhost:8000",
     "devroot": "/",
     "themeColor": "#EEEEEE",
     "PWAcache": "::OldPines",
@@ -30,10 +30,10 @@
     "analytics": "UA-160606726-1",
     "csp": {
       "default-src": "",
-      "font-src": "data:",
-      "style-src": "",
-      "script-src": "*.cloudflare.com data:",
-      "connect-src": "*.optimalworks.net *.google-analytics.com data:",
+      "font-src": "*.caterbook.net data:",
+      "style-src": "*.caterbook.net 'unsafe-inline'",
+      "script-src": "*.caterbook.net *.cloudflare.com 'unsafe-inline' data:",
+      "connect-src": "*.caterbook.net *.optimalworks.net *.google-analytics.com data:",
       "img-src": "* data:",
       "media-src": "",
       "frame-src": "*.google.com"
@@ -52,22 +52,22 @@
     "> 2%"
   ],
   "dependencies": {
-    "autoprefixer": "9.8.5",
+    "autoprefixer": "10.0.1",
     "css-mqpacker": "7.0.0",
     "cssnano": "4.1.10",
-    "del": "5.1.0",
+    "del": "6.0.0",
     "gulp": "4.0.2",
     "gulp-concat": "2.6.1",
     "gulp-deporder": "1.2.0",
     "gulp-imagemin": "6.2.0",
     "gulp-newer": "1.4.0",
     "gulp-noop": "1.0.1",
-    "gulp-postcss": "8.0.0",
+    "gulp-postcss": "9.0.0",
     "gulp-preprocess": "3.0.3",
     "gulp-rename": "2.0.0",
     "gulp-sass": "4.1.0",
     "gulp-sourcemaps": "2.6.5",
-    "gulp-terser": "1.2.1",
+    "gulp-terser": "1.4.1",
     "inline-source": "7.2.0",
     "jstransformer-ejs": "0.2.0",
     "metalsmith": "2.3.0",
@@ -76,13 +76,14 @@
     "metalsmith-layouts": "2.3.1",
     "metalsmith-mapsite": "1.0.6",
     "metalsmith-markdown": "1.3.0",
-    "metalsmith-publish": "0.1.5",
+    "metalsmith-publish": "0.1.6",
     "metalsmith-word-count": "0.0.4",
+    "postcss": "8.1.5",
     "postcss-assets": "5.0.0",
-    "postcss-import": "12.0.1",
+    "postcss-import": "13.0.0",
     "vinyl-ftp": "0.6.1"
   },
   "devDependencies": {
-    "browser-sync": "2.26.12"
+    "browser-sync": "2.26.13"
   }
 }
