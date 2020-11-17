@@ -3,8 +3,8 @@ title: Old Pines Restaurant
 menu: restaurant
 description: Old Pines serves delicious, locally-sourced, fresh and seasonal Scottish food and drink in our restaurant overlooking Highlands.
 quote: Lovely food and great location. The staff couldn't have done more.
-hero:  v1589283502/hero/old-pines-restaurant-03
-herop: v1589283502/hero/old-pines-restaurant-03-p
+hero:  v1605633718/hero/old-pines-restaurant-04
+herop: v1605633718/hero/old-pines-restaurant-04-p
 priority: 0.8
 ---
 
