@@ -17,10 +17,10 @@ Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fres
 <section class="list">
   <ul>
     <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-starter-02" width="300" height="400" alt="Old Pines restaurant, starter" crossorigin="anonymous" loading="lazy" /></li>
-    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main" width="300" height="400" alt="Old Pines restaurant, main course" crossorigin="anonymous" loading="lazy" /></li>
     <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main-03" width="300" height="400" alt="Old Pines restaurant, main course" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1584450415/content/old-pines-restaurant.jpg" width="300" height="400" alt="Old Pines dining room" crossorigin="anonymous" loading="lazy" /></li>
+    <li><img src="[imagecdn]f_auto/v1605877143/content/old-pines-restaurant-02.jpg" width="300" height="400" alt="Old Pines restaurant" crossorigin="anonymous" loading="lazy" /></li>
     <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main-02" width="300" height="400" alt="Old Pines restaurant, main course" crossorigin="anonymous" loading="lazy" /></li>
-    <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main-05" width="300" height="400" alt="Old Pines restaurant, main course" crossorigin="anonymous" loading="lazy" /></li>
     <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-dessert" width="300" height="400" alt="Old Pines restaurant, dessert" crossorigin="anonymous" loading="lazy" /></li>
   </ul>
 </section>
