@@ -23,12 +23,20 @@
 
       <ul>
 
-        <% if (menu !== 'restaurant') { %>
+        <% if (menu !== 'restaurant' && menu !== 'takeaway') { %>
           <li><a href="<%- book %>" class="button">book a room</a></li>
         <% } %>
 
-        <% if (menu !== 'rooms') { %>
+        <% if (menu === 'restaurant') { %>
           <li><a href="[root]contact/" class="button">book a table</a></li>
+        <% } %>
+
+        <% if (menu !== 'rooms' && menu !== 'takeaway') { %>
+          <li><a href="[root]restaurant/takeaway/" class="button">dine at home</a></li>
+        <% } %>
+
+        <% if (menu === 'takeaway') { %>
+          <li><a href="[root]contact/" class="button">order</a></li>
         <% } %>
 
         <li><a href="<%- voucher %>" class="button">buy voucher</a></li>
