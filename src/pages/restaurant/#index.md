@@ -14,6 +14,10 @@ Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fres
 
 <a href="[root]menu/breakfast/" class="icon copy">View a sample breakfast menu&hellip;</a>
 
+## New Takeaway Service
+
+Our <a href="[root]restaurant/takeaway/">"Dine at Home" takeaway service</a> delivers restaurant-quality three-course meals to your home every Saturday.
+
 <section class="list">
   <ul>
     <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-starter-02" width="300" height="400" alt="Old Pines restaurant, starter" crossorigin="anonymous" loading="lazy" /></li>
