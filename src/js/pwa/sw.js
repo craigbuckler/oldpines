@@ -87,7 +87,7 @@ self.addEventListener('fetch', event => {
               network = fetch(event.request)
                 .then(newreq => {
 
-                  if (newreq && newreq.ok && !url.startsWith('https://www.optimalworks.') && (url.startsWith(domain) || url.startsWith(domaincdn) || url.startsWith('https://fonts.'))) {
+                  if (newreq && newreq.ok && !url.startsWith('https://www.optimalworks.') && !url.endsWith('.pdf') && (url.startsWith(domain) || url.startsWith(domaincdn) || url.startsWith('https://fonts.'))) {
 
                     // cache valid response
                     cache.put(event.request, newreq.clone());
