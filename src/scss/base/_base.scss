@@ -10,6 +10,10 @@ html, body {
   -webkit-text-size-adjust: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $font-main;
   font-size: 1rem;
@@ -36,6 +40,7 @@ h1, h2 {
   letter-spacing: -0.03em;
   padding: 0;
   margin: 1em 0 0 0;
+  scroll-margin-top: 3rem;
 }
 
 h1:first-child {

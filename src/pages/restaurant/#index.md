@@ -10,13 +10,11 @@ priority: 0.8
 
 Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fresh and seasonal Scottish food in simple and unpretentious way to let the flavours of the food shine through.
 
-<a href="[root]menu/dinner" class="icon copy">View a sample dinner menu&hellip;</a>
+<a href="[root]menu/dinner" class="icon copy">view a sample dinner menu&hellip;</a>
 
-<a href="[root]menu/breakfast/" class="icon copy">View a sample breakfast menu&hellip;</a>
+<a href="[root]menu/lunch/" class="icon copy">view a sample lunch menu&hellip;</a>
 
-## New Takeaway Service
-
-Our <a href="[root]restaurant/takeaway/">"Dine at Home" takeaway service</a> delivers restaurant-quality three-course meals to your home every Saturday.
+<a href="[root]menu/breakfast/" class="icon copy">view a sample breakfast menu&hellip;</a>
 
 <section class="list">
   <ul>
@@ -45,7 +43,7 @@ A selection of Scots Whisky, ales, beers, wines, cocktails, and other drinks are
 
 ## Opening Times
 
-We are also open for tea, coffee, drinks, light snacks, and cakes all day in the lounge and restaurant area. Please [book]([root]contact/) for parties of six or more.
+Lunch is served from 12:00pm to 3:00pm. We are also open for tea, coffee, drinks, and cakes all day in the lounge and restaurant area. Please [book]([root]contact/) for parties of six or more.
 
 Dinner is served from 6:00pm to 9:00pm. Residents will always be guaranteed a table although it is advisable book if you wish to dine at a specific time.
 

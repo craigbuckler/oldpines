@@ -13,6 +13,7 @@ $redir = array(
 	'room' 		=> 'rooms/',
 	'stay' 		=> 'rooms/',
 	'break' 	=> 'rooms/',
+	'menu' 		=> 'restaurant/',
 	'din' 		=> 'restaurant/',
 	'lunch' 	=> 'restaurant/',
 	'order'		=> 'restaurant/takeaway/',
