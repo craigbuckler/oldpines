@@ -9,11 +9,7 @@ priority: 0.8
 nomenu: true
 ---
 
-Old Pines cuisine is now available for you to experience at home with our **Saturday Suppers Service**! Every Saturday, we will prepare a full three-course restaurant-quality dinner for you to eat at home for &pound;25 per head.
-
-The menu changes every week so there will always be something new and exciting to try. It will be published every Monday on [Facebook](https://www.facebook.com/oldpineshotel), [Instagram](https://www.instagram.com/oldpineshotel/), and this website:
-
-<a href="[root]download/SaturdaySuppers.pdf" class="icon pdf">view this week's Saturday Suppers menu&hellip;</a>
+Old Pines **Saturday Suppers Service** is no longer available as we are now [open for restaurant bookings]([root]restaurant/).
 
 <section class="list">
   <ul>
@@ -22,13 +18,3 @@ The menu changes every week so there will always be something new and exciting t
     <li><img src="[imagecdn]f_auto/v1589284698/content/old-pines-main" width="300" height="400" alt="Old Pines takeaway, main course" crossorigin="anonymous" loading="lazy" /></li>
   </ul>
 </section>
-
-All dishes will be either ready to eat, or just require warming up and finishing to your liking. Full preparation instructions are provided where necessary.
-
-Please **pre-order by Wednesday evening** using our [contact form]([root]contact/), [telephone](tel:+44-1397-712324), [email](mailto:dineathome@oldpines.co.uk), [Facebook](https://www.facebook.com/oldpineshotel), or [Instagram](https://www.instagram.com/oldpineshotel/) page. Prepayment is required by credit or debit card.
-
-Delivery is **free** to the Fort William, Spean Bridge, and Roy Bridge areas between 3:00pm and 5:00pm every Saturday afternoon.
-
-*Takeaway and delivery numbers are limited so please book early to avoid disappointment!*
-
-<a href="[root]contact/" class="button">order</a>

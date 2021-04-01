@@ -10,89 +10,57 @@ layout: menu.ejs
 
 <article>
 
-<a href="[root]"><img src="[root]images/old-pines-logo.png" alt="[name]" width="400" height="129" /></a>
+<a href="[root]restaurant/"><img src="[root]images/old-pines-logo.png" alt="[name]" width="400" height="129" /></a>
 
-# Good Morning
+# Breakfast menu
 
-*To start*
+## Juices
 
-* Homemade muesli
-* Fresh fruit salad & berries
-* Natural yogurt
-* Prunes
-* Cereals - Crunchy Nut Cornflakes,<br />Fruit &amp; Fibre, or Rice Krispies
-* Traditional porridge with fresh cream
+Orange, pink grapefruit, apple
 
+## Tea
 
-## Beverages
+English breakfast, Earl Grey, darjeeling, decaffeinated tea, camomile tea, peppermint tea, green tea
 
-*Juices*
+## Coffee
 
-* Orange, Pink grapefruit or Apple
-
-*Tea*
-
-* English Breakfast
-* Earl Grey
-* Darjeeling
-* Decaffeinated tea
-* Camomile tea
-* Peppermint tea
-* Green tea
-
-*Coffee*
-
-* Cafetiere of coffee or decaffeinated coffee
-
-
-</article>
-<article>
-
-<a href="[root]"><img src="[root]images/old-pines-logo.png" alt="[name]" width="400" height="129" /></a>
-
-## Breakfast Menu
-
-*Please select from the following&hellip;*
+Cafetiere of coffee or decaffeinated coffee
 
 ---
 
-### Full Scottish Breakfast
+**Homemade muesli**
 
-Fresh free range eggs from our own chickens &ndash;<br />fried, poached, scrambled, or boiled
+**Fresh fruit salad** with berries and natural yogurt
 
-*Served with a selection of*
+**Cereals:** Crunchy Nut Cornflakes, Fruit &amp; Fibre, Rice Krispies
 
-* Local dry-cured bacon
-* Pork sausage
-* Stornoway black pudding
-* Grilled tomatoes
-* Mushrooms
-* Potato scone
-* Vegetarian sausage
+**Prunes**
 
 ---
 
-### "Ham and Haddie"
+## Traditional Scottish porridge
 
-A fillet of Mallaig smoked haddock<br />topped with bacon and poached egg
+With your choice of topping: fresh cream, nuts and seeds, fruit compote, honey, chocolate or a nip of whisky.
+
+## Full Scottish Breakfast
+
+Fresh free range eggs from our own chickens &ndash; fried, poached, or scrambled. Served with local dry-cured bacon, pork sausage, black pudding, grilled tomatoes, mushrooms, and potato scone.
+
+## Garden Breakfast
+
+Fresh free range eggs from our own chickens &ndash; fried, poached, or scrambled. Served with fried mushrooms, Boston-style baked butterbeans, grilled tomatoes, avocado, wilted spinach, and potato scone.
+
+## Ham and Haddie
+
+A fillet of Letterfinlay smoked haddock topped with bacon and poached egg.
+
+## Scottish Eggs
+
+Scrambled eggs served with organic smoked salmon or Great Glen smoked venison. All breakfasts accompanied by our homemade granary toast, jam, marmalade, and honey.
 
 ---
 
-### Scrambled & Salmon
-
-Scrambled eggs served with organic smoked salmon
-
----
-
-### Scrambled & Venison
-
-Scrambled eggs served with Great Glen smoked venison
-
----
-
-## Accompanied by
-
-* Granary and white toast
-* Homemade raspberry jam, marmalade, and Scottish honey
+*Please ask for allergen information.*<br>
+*Many dishes can be adapted to suit your dietary requirements.*
 
 </article>

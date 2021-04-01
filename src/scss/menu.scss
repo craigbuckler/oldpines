@@ -27,6 +27,10 @@ html, body {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $font-main;
   font-size: 1em;
@@ -61,31 +65,28 @@ article {
   }
 }
 
-h1, h2 {
+h1 {
   font-size: 1.6rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: 3em;
-}
-
-#breakfast h1 {
   font-weight: 300;
-  font-style: italic;
-  text-align: center;
+  text-transform: uppercase;
 }
 
-#breakfast h2, h3 {
-  font-size: 1.4rem;
+h2 {
+  font-size: 1em;
+  margin-top: 1.5em;
+}
+
+h2, strong {
   font-weight: 600;
-  text-align: center;
-  text-transform: none;
-  margin-top: 2em;
 }
 
 p, ul {
   list-style-type: none;
-  text-align: center;
   margin-top: 1em;
+}
+
+h2 + p {
+  margin-top: 0.2em;
 }
 
 table {
@@ -99,16 +100,22 @@ table {
 	user-select: none;
 }
 
-thead {
-  display: none;
-}
-
-td {
-  padding: 2vh 0;
+th, td {
+  padding: 1.5vh 0;
+  text-align: left;
   vertical-align: bottom;
 }
 
-td:last-child {
+th {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+th:last-child {
+  visibility: hidden;
+}
+
+th:last-child, td:last-child {
   width: 6em;
   font-variant-numeric: tabular-nums;
   text-align: right;
@@ -116,16 +123,17 @@ td:last-child {
 }
 
 img {
-  display: block;
+  float: right;
   max-width: 100%;
   height: auto;
+  padding: 0 0 2em 2em;
 }
 
 hr {
-  width: 25%;
+  width: calc(100% - 6em);
   border: none;
-  border-top: #000 double 3px;
-  margin: 3em auto;
+  border-top: $green-dark solid 1px;
+  margin: 1.5em 0;
 }
 
 #back {
@@ -166,10 +174,7 @@ hr {
     background: #fff;
     border: 0 none;
     box-shadow: none;
-  }
-
-  h1, h2 {
-    margin-top: 3em;
+    break-inside: avoid;
   }
 
   td {
