@@ -10,6 +10,14 @@ priority: 1.0
 
 Welcome to Old Pines. We are a small [hotel]([root]rooms/) and [restaurant]([root]restaurant/) set in seven acres of ancient Scots pine trees just north of Spean Bridge, near Fort William, in the Highlands of Scotland with [spectacular views]([root]location/) of the Ben Nevis Range.
 
+<p class="feature">
+  <a href="https://www.mckinlaykidd.com/scotland-holidays/first-class-jacobite-express-short-break/">
+    <img src="[imagecdn]f_auto/v1618583776/content/steam-tour" width="300" height="200" alt="First Class Jacobite Express short break" crossorigin="anonymous" loading="lazy" />
+    We've put together a special deal with McKinlay Kidd to bring you First Class Jacobite Express short breaks in May 2021.
+    <strong>More information&hellip;</strong>
+  </a>
+</p>
+
 <nav class="list">
   <ul>
     <li>
@@ -50,6 +58,5 @@ Thank you to all our customers for their complimentary reviews of Old Pines Hote
 |Tripadvisor|[4.5 out of 5.0](https://www.tripadvisor.co.uk/Hotel_Review-g635692-d304682-Reviews-Old_Pines_Hotel_and_Restaurant-Spean_Bridge_Lochaber_Scottish_Highlands_Scotland.html#REVIEWS)|
 |Trivago|[9.2 out of 10.0](https://www.trivago.co.uk/spean-bridge-359271/hotel/old-pines-604336)|
 |Booking.com|[9.4 out of 10.0](https://www.booking.com/hotel/gb/oldpineshotel.en-gb.html#tab-reviews)|
-|Expedia.co.uk|[4.8 out of 5.0](https://www.expedia.co.uk/Spean-Bridge-Hotels-Old-Pines-Hotel.h2254781.Hotel-Information)|
 
 <a href="[book]" class="button">book a room</a>
