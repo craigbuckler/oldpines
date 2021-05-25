@@ -10,14 +10,6 @@ priority: 1.0
 
 Welcome to Old Pines. We are a small [hotel]([root]rooms/) and [restaurant]([root]restaurant/) set in seven acres of ancient Scots pine trees just north of Spean Bridge, near Fort William, in the Highlands of Scotland with [spectacular views]([root]location/) of the Ben Nevis Range.
 
-<p class="feature">
-  <a href="https://www.mckinlaykidd.com/scotland-holidays/first-class-jacobite-express-short-break/">
-    <img src="[imagecdn]f_auto/v1618583776/content/steam-tour" width="300" height="200" alt="First Class Jacobite Express short break" crossorigin="anonymous" loading="lazy" />
-    We've put together a special deal with McKinlay Kidd to bring you First Class Jacobite Express short breaks in May 2021.
-    <strong>More information&hellip;</strong>
-  </a>
-</p>
-
 <nav class="list">
   <ul>
     <li>

@@ -43,10 +43,10 @@ A selection of Scots Whisky, ales, beers, wines, cocktails, and other drinks are
 
 ## Opening Times
 
-Lunch is served from 12:00pm to 3:00pm. We are also open for tea, coffee, drinks, and cakes all day in the lounge and restaurant area. Please [book]([root]contact/) for parties of six or more.
+**Lunch** is served on Wednesday to Sunday from 12:00pm to 2:00pm. Please [book a lunch table in advance]([root]contact/).
 
-Dinner is served from 6:00pm to 9:00pm. Residents will always be guaranteed a table although it is advisable book if you wish to dine at a specific time.
+We are open for tea, coffee, drinks, and cakes all day in the lounge and restaurant area.
 
-Non-residents can [book a dining table in advance]([root]contact/).
+**Dinner** is served from 6:00pm to 9:00pm. Residents will always be guaranteed a table although it is advisable book if you wish to dine at a specific time. Non-residents can [book a dining table in advance]([root]contact/).
 
 <a href="[root]contact/" class="button">book a table</a>
