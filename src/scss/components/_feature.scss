@@ -1,5 +1,16 @@
+/*
+Example feature:
+
+<p class="feature">
+  <a href="https://www.mckinlaykidd.com/scotland-holidays/first-class-jacobite-express-short-break/">
+    <img src="[imagecdn]f_auto/v1618583776/content/steam-tour" width="300" height="200" alt="First Class Jacobite Express short break" crossorigin="anonymous" loading="lazy" />
+    We've put together a special deal with McKinlay Kidd to bring you First Class Jacobite Express short breaks in May 2021.
+    <strong>More information&hellip;</strong>
+  </a>
+</p>
+*/
+
 .feature {
-  //font-size: 1.2em;
   color: $color-back;
   background-color: $green-dark;
   overflow: auto;
