@@ -44,7 +44,7 @@
     noop          = require('gulp-noop'),
     newer         = require('gulp-newer'),
     imagemin      = require('gulp-imagemin'),
-    sass          = require('gulp-sass'),
+    sass          = require('gulp-sass')(require('sass')),
     sourcemaps    = devBuild ? require('gulp-sourcemaps') : null,
     postcss       = require('gulp-postcss'),
     preprocess    = require('gulp-preprocess'),
@@ -253,7 +253,6 @@
     watch       : dir.src + 'scss/**/*',
     build       : dir.build + 'css/',
     sassOpts: {
-      outputStyle     : 'nested',
       imagePath       : '/images/',
       precision       : 3,
       errLogToConsole : true

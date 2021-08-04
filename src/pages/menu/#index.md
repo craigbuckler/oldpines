@@ -13,7 +13,7 @@ A selection of sample menus serving delicious seasonal food from our restaurant 
 
 <a href="[root]menu/dinner" class="icon copy">view a sample dinner menu&hellip;</a>
 
-<a href="[root]menu/lunch/" class="icon copy">view a sample lunch menu&hellip;</a>
+<!-- <a href="[root]menu/lunch/" class="icon copy">view a sample lunch menu&hellip;</a> -->
 
 <a href="[root]menu/breakfast/" class="icon copy">view a sample breakfast menu&hellip;</a>
 
