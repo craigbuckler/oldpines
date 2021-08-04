@@ -12,7 +12,7 @@ Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fres
 
 <a href="[root]menu/dinner" class="icon copy">view a sample dinner menu&hellip;</a>
 
-<a href="[root]menu/lunch/" class="icon copy">view a sample lunch menu&hellip;</a>
+<!-- <a href="[root]menu/lunch/" class="icon copy">view a sample lunch menu&hellip;</a> -->
 
 <a href="[root]menu/breakfast/" class="icon copy">view a sample breakfast menu&hellip;</a>
 
@@ -43,7 +43,7 @@ A selection of Scots Whisky, ales, beers, wines, cocktails, and other drinks are
 
 ## Opening Times
 
-**Lunch** is served on Wednesday to Sunday from 12:00pm to 2:00pm. Please [book a lunch table in advance]([root]contact/).
+<!-- **Lunch** is served on Wednesday to Sunday from 12:00pm to 2:00pm. Please [book a lunch table in advance]([root]contact/).-->
 
 We are open for tea, coffee, drinks, and cakes all day in the lounge and restaurant area.
 
