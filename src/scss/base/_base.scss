@@ -107,7 +107,7 @@ picture, img {
   user-select: none;
 }
 
-$bqcolor: $color-fore;
+$bqcolor: $color-back;
 $bqtail: 10px;
 
 blockquote {
@@ -118,6 +118,7 @@ blockquote {
   margin: $bqtail 0 0 0;
   background-color: $bqcolor;
   border-radius: $bqtail;
+  filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
 
   &::after {
     position: absolute;
@@ -135,7 +136,7 @@ blockquote {
     font-style: italic;
     line-height: 1.4;
     margin: 0;
-    color: $color-back;
+    color: $color-fore;
   }
 }
 

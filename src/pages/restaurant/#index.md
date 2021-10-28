@@ -8,7 +8,11 @@ herop: v1605633718/hero/old-pines-restaurant-04-p
 priority: 0.8
 ---
 
-Our ethos at Old Pines Restaurant is to prepare delicious, locally-sourced, fresh and seasonal Scottish food in simple and unpretentious way to let the flavours of the food shine through.
+We work closely with a variety of local suppliers to bring you the best seasonal Highland produce, as well as our own homegrown produce from our gardens. As such, our menu changes daily reflecting the season and availability.
+
+Your menu can be prepared fully gluten free or dairy free on request and we are able to accommodate many other dietary requirements. Please let us know when booking or on arrival and we will do our best to accommodate your specific needs.
+
+We will always have a fully vegan extended menu option available on request, again changing regularly. A small children's menu is also available.
 
 <a href="[root]menu/dinner" class="icon copy">view a sample dinner menu&hellip;</a>
 
