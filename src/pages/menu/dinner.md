@@ -16,69 +16,77 @@ layout: menu.ejs
 
 Served 6:00pm to 9:00pm
 
-|starters|price|
-|-|-|
-|**Smoked haddock**, 'Scotch' quails egg, shaved fennel, parsley emulsion (df)|£7.50|
-|**Pan seared Mallaig scallops**, guanciale, apricot, black pudding crumb (gf)|£10.50|
-|**Home smoked local venison**, BBQ potato salad, wild rocket, parmesan (gf)|£9.00|
+£45 per person
 
 ---
 
-|mains|price|
-|-|-|
-|**Roast rump of Scottish lamb**, new season potatoes, minted courgette, black olive tapenade, jus (gf)|£22.50|
-|**Twice-cooked belly of pork**, white balsamic lyonnaise potatoes, wild garlic fennel, orange, jus, and crackling (gf)|£19.00|
-|**Pan roast market fish** *(please ask for today's fish)* peperonata, pistachio, and garden herbs|£ daily|
-|**Highland steak** *(please ask for today's cut)*, served with wild garlic butter and tripled cooked chips (gf)|£ daily|
-|**Highland Broil:** Mallaig shellfish and langoustines cooked in a creamy white wine sauce with soused sweetcorn, new potatoes, venison chorizo and lovage (gf)|£23.50|
-|*Sharer for two or more people:*<br />**Highland "Surf 'n' Turf:** Featherblade of Highland beef, braised in Skye black stout, fried Mallaig oysters, mash, sprouting broccoli and almond|£24.00pp|
+*Welcome snacks*
 
 ---
+
+|choice of starters||
+|-|-|
+|Velout&eacute; of baked Ayrshire potato, heather honey, taleggio||
+|Shallot tatin, walnut, parmesan, wild watercress||
+|Shetland mussels, white asparagus, rhubarb||
+
+---
+
+|choice of mains||
+|-|-|
+|Scottish lamb, turnip, samphire, wild garlic||
+|Baked squash, artichoke, harissa, barrel aged feta||
+|Hake fillet, roast cauliflower, new potato, sherry butter sauce||
+
+---
+
+*Pre-dessert*
+
+---
+
+|choice of desserts||
+|-|-|
+|Milk chocolate parfait, Scottish raspberry, almond crisp||
+|Warm Banana cake, pistachio, golden syrup tuile||
+|Highland cheese board, port jelly *(£5pp supplement)*||
 
 </article>
 <article>
 
 <a href="[root]restaurant/"><img src="[root]images/old-pines-logo.png" alt="[name]" width="400" height="129" /></a>
 
-# Vegetarian Evening Menu
+# Vegan Evening Menu
 
-|starter|price|
-|-|-|
-|**Foraged soup**: a seasonal green soup made with wild Highland plants picked in the local area (vegan, gf)|£6.00|
-|**British asparagus**, smoked hens yolk, grapefruit, green herb butter|£8.50|
-|**Spiced carrot falafel**, orange and pistachio ketchup, coriander (vegan, gf)|£7.00|
+Served 6:00pm to 9:00pm
+
+£45 per person
 
 ---
 
-|mains|price|
-|-|-|
-|**Sweet potato gnocchi**, charred spring onion, Blue Murder, and chive yoghurt|£17.50|
-|**BBQ courgettes**, fried new potatoes, preserved lemon, black olive tapenade, and herb oil (vegan, gf)|£16.50|
-|**Salt baked beets**, peperonata, garden herbs, and smoked almonds (vegan)|£17.00|
+*Welcome snacks*
 
 ---
 
-</article>
-<article>
-
-<a href="[root]restaurant/"><img src="[root]images/old-pines-logo.png" alt="[name]" width="400" height="129" /></a>
-
-# Dessert menu
-
-|dessert|price|
+|choice of starters||
 |-|-|
-|**Buttermilk parfait**, poached strawberries, and basil (gf)|£7.00|
-|**Scottish raspberry jam tart** and clotted cream|£8.00|
-|**Roast peaches**, peach sorbet, and tarragon sherbet (vegan)|£7.50|
-|**"Black forest" clafoutis**|£8.00|
-|**Highland cheese board**|£10.00|
+|Velout&eacute; of baked Ayrshire potato, heather honey, taleggio||
 
 ---
 
-* (gf) = gluten-free
-* (df) = dairy-free
+|choice of mains||
+|-|-|
+|White asparagus fregola, pickled rhubarb, dill||
+|Roast squash, artichoke, apple, lovage||
 
-*Please ask for allergen information.*<br>
-*Many dishes can be adapted to suit your dietary requirements.*
+---
+
+*Pre-dessert*
+
+---
+
+|choice of desserts||
+|-|-|
+|Passionfruit, Chickpea Meringue||
+|Caramelized rum banana, pistachio, soy cream||
 
 </article>
