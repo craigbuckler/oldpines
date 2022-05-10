@@ -53,6 +53,6 @@ We are open for tea, coffee, drinks, and cakes all day in the lounge and restaur
 
 **Afternoon tea** including sandwiches, scones, and homemade cakes is available for &pound;20 per person. Please [pre-book at least 24 hours in advance]([root]contact/).
 
-**Dinner** is served from 6:00pm to 9:00pm. Residents will always be guaranteed a table although it is advisable book if you wish to dine at a specific time. Non-residents can [book a dining table in advance]([root]contact/).
+**Dinner** is served from 6:00pm to 8:00pm. Residents will always be guaranteed a table although it is advisable book if you wish to dine at a specific time. Non-residents can [book a dining table in advance]([root]contact/).
 
 <a href="[root]contact/" class="button">book a table</a>

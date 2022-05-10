@@ -14,8 +14,6 @@ layout: menu.ejs
 
 # Evening Menu
 
-Served 6:00pm to 9:00pm
-
 5 courses, £45 per person
 
 ---
@@ -24,19 +22,27 @@ Served 6:00pm to 9:00pm
 
 ---
 
-|choice of starters||
-|-|-|
-|Velout&eacute; of baked Ayrshire potato, aged parmesan, pickled sultana||
-|Mallaig shellfish risotto, samphire, grape||
-|Shallot tarte tatin, walnut, taleggio||
+Velout&eacute; of baked Ayrshire potato, aged parmesan, pickled sultana
 
 ---
 
-|choice of mains||
-|-|-|
-|Twice cooked Scottish pork belly, smoked root champ, apple jus||
-|Curried cauliflower, new potato, apple, coriander, dill oil||
-|Fillet of North Sea hake, new potato, asparagus, sherry butter sauce||
+Mallaig shellfish risotto, samphire, grape
+
+*OR*
+
+Shallot tarte tatin, walnut, taleggio
+
+---
+
+Twice cooked Scottish pork belly, smoked root champ, apple jus
+
+*OR*
+
+Curried cauliflower, new potato, apple, coriander, dill oil
+
+*OR*
+
+Fillet of North Sea hake, new potato, asparagus, sherry butter sauce
 
 ---
 
@@ -44,10 +50,11 @@ Served 6:00pm to 9:00pm
 
 ---
 
-|choice of desserts||
-|-|-|
-|Warm Banana cake, pistachio, golden syrup tuile||
-|Milk chocolate parfait, salt caramel, peanut praline||
+Warm Banana cake, pistachio, golden syrup tuile
+
+*OR*
+
+Milk chocolate parfait, salt caramel, peanut praline
 
 ---
 
@@ -62,8 +69,6 @@ Served 6:00pm to 9:00pm
 
 # Vegan Evening Menu
 
-Served 6:00pm to 9:00pm
-
 5 courses, £45 per person
 
 ---
@@ -72,16 +77,15 @@ Served 6:00pm to 9:00pm
 
 ---
 
-|starter||
-|-|-|
-|Velout&eacute; of baked potato, truffle, apple||
+Velout&eacute; of baked potato, truffle, apple
 
 ---
 
-|choice of mains||
-|-|-|
-|Squash risotto, artichoke, hazelnut||
-|Grilled courgette, turnip, fennel, caper, pinenut||
+Squash risotto, artichoke, hazelnut
+
+---
+
+Grilled courgette, turnip, fennel, caper, pinenut
 
 ---
 
@@ -89,9 +93,7 @@ Served 6:00pm to 9:00pm
 
 ---
 
-|dessert||
-|-|-|
-|Spiced pineapple, coconut, sesame||
+Spiced pineapple, coconut, sesame
 
 ---
 

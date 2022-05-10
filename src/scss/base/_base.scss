@@ -8,6 +8,8 @@ html, body {
   min-height: 100%;
   touch-action: manipulation;
   -webkit-text-size-adjust: none;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 html {
