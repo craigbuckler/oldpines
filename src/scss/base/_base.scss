@@ -9,7 +9,6 @@ html, body {
   touch-action: manipulation;
   -webkit-text-size-adjust: none;
   image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
 }
 
 html {
@@ -173,7 +172,7 @@ a, .linkable {
     color: $color-lhvr;
   }
 
-  &:focus {
+  &:focus-visible {
     outline: 2px dotted $color-lhvr;
     outline-offset: 10px;
   }

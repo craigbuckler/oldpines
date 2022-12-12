@@ -22,27 +22,27 @@ layout: menu.ejs
 
 ---
 
-Velout&eacute; of baked Ayrshire potato, aged parmesan, pickled sultana
+Confit jersey royals, black garlic, cider
 
 ---
 
-Mallaig shellfish risotto, samphire, grape
+Watercress tagliatelle, hens egg, berkswell, chive
 
 *OR*
 
-Shallot tarte tatin, walnut, taleggio
+Fried soft shell crab, white asparagus, clementine
 
 ---
 
-Twice cooked Scottish pork belly, smoked root champ, apple jus
+Glazed pork cheeks, kohlrabi, apple, miso
 
 *OR*
 
-Curried cauliflower, new potato, apple, coriander, dill oil
+Loch Etive trout, braised buckwheat, preserved lemon, lovage
 
 *OR*
 
-Fillet of North Sea hake, new potato, asparagus, sherry butter sauce
+Smoked carrot falafel, new season asparagus, cashew, chilli
 
 ---
 
@@ -50,11 +50,11 @@ Fillet of North Sea hake, new potato, asparagus, sherry butter sauce
 
 ---
 
-Warm Banana cake, pistachio, golden syrup tuile
+Toasted oat mousse, honey granita, milk chocolate, prune
 
 *OR*
 
-Milk chocolate parfait, salt caramel, peanut praline
+Poached Yorkshire rhubarb, elderflower sabayon, macadamia nut
 
 ---
 
