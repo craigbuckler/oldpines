@@ -14,9 +14,7 @@ layout: menu.ejs
 
 # Evening Menu
 
-Served 6:00pm to 9:00pm
-
-£45 per person
+5 courses, £45 per person
 
 ---
 
@@ -24,19 +22,27 @@ Served 6:00pm to 9:00pm
 
 ---
 
-|choice of starters||
-|-|-|
-|Velout&eacute; of baked Ayrshire potato, heather honey, taleggio||
-|Shallot tatin, walnut, parmesan, wild watercress||
-|Shetland mussels, white asparagus, rhubarb||
+Velout&eacute; of baked Ayrshire potato, aged parmesan, pickled sultana
 
 ---
 
-|choice of mains||
-|-|-|
-|Scottish lamb, turnip, samphire, wild garlic||
-|Baked squash, artichoke, harissa, barrel aged feta||
-|Hake fillet, roast cauliflower, new potato, sherry butter sauce||
+Mallaig shellfish risotto, samphire, grape
+
+*OR*
+
+Shallot tarte tatin, walnut, taleggio
+
+---
+
+Twice cooked Scottish pork belly, smoked root champ, apple jus
+
+*OR*
+
+Curried cauliflower, new potato, apple, coriander, dill oil
+
+*OR*
+
+Fillet of North Sea hake, new potato, asparagus, sherry butter sauce
 
 ---
 
@@ -44,11 +50,17 @@ Served 6:00pm to 9:00pm
 
 ---
 
-|choice of desserts||
-|-|-|
-|Milk chocolate parfait, Scottish raspberry, almond crisp||
-|Warm Banana cake, pistachio, golden syrup tuile||
-|Highland cheese board, port jelly *(£5pp supplement)*||
+Warm Banana cake, pistachio, golden syrup tuile
+
+*OR*
+
+Milk chocolate parfait, salt caramel, peanut praline
+
+---
+
+*Tea, coffee and petit fours*
+
+*Selection of Scottish cheese, port jelly, oatcakes (£5pp supplement)*
 
 </article>
 <article>
@@ -57,9 +69,7 @@ Served 6:00pm to 9:00pm
 
 # Vegan Evening Menu
 
-Served 6:00pm to 9:00pm
-
-£45 per person
+5 courses, £45 per person
 
 ---
 
@@ -67,16 +77,15 @@ Served 6:00pm to 9:00pm
 
 ---
 
-|choice of starters||
-|-|-|
-|Velout&eacute; of baked Ayrshire potato, heather honey, taleggio||
+Velout&eacute; of baked potato, truffle, apple
 
 ---
 
-|choice of mains||
-|-|-|
-|White asparagus fregola, pickled rhubarb, dill||
-|Roast squash, artichoke, apple, lovage||
+Squash risotto, artichoke, hazelnut
+
+---
+
+Grilled courgette, turnip, fennel, caper, pinenut
 
 ---
 
@@ -84,9 +93,10 @@ Served 6:00pm to 9:00pm
 
 ---
 
-|choice of desserts||
-|-|-|
-|Passionfruit, Chickpea Meringue||
-|Caramelized rum banana, pistachio, soy cream||
+Spiced pineapple, coconut, sesame
+
+---
+
+*Tea, coffee and petit fours*
 
 </article>
