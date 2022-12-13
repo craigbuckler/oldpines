@@ -16,9 +16,9 @@ We will always have a fully vegan extended menu option available on request, aga
 
 View sample:
 
-* dinner <a href="[root]menu/dinner">menu&nbsp;one</a>, <a href="[root]menu/dinner2">menu&nbsp;two</a> or <a href="[root]menu/dinner3">menu&nbsp;three</a>
+* dinner <a href="[root]menu/dinner2">menu&nbsp;one</a> and <a href="[root]menu/dinner3">menu&nbsp;two</a>
 
-* **vegan** dinner <a href="[root]menu/vegan">menu&nbsp;one</a> or <a href="[root]menu/vegan2">menu&nbsp;two</a>
+* <a href="[root]menu/vegan2">vegan dinner menu</a>
 
 * <a href="[root]menu/breakfast/">breakfast menu</a>
 
