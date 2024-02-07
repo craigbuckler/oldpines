@@ -11,11 +11,13 @@ nomenu: true
 
 A selection of sample menus serving delicious seasonal food from our restaurant overlooking the Highlands and Ben Nevis mountain range:
 
-<a href="[root]menu/dinner" class="icon copy">view a sample dinner menu&hellip;</a>
+View sample:
 
-<!-- <a href="[root]menu/lunch/" class="icon copy">view a sample lunch menu&hellip;</a> -->
+* dinner <a href="[root]menu/dinner">menu&nbsp;one</a>, <a href="[root]menu/dinner2">menu&nbsp;two</a> or <a href="[root]menu/dinner3">menu&nbsp;three</a>
 
-<a href="[root]menu/breakfast/" class="icon copy">view a sample breakfast menu&hellip;</a>
+* **vegan** dinner <a href="[root]menu/vegan">menu&nbsp;one</a> or <a href="[root]menu/vegan2">menu&nbsp;two</a>
+
+* <a href="[root]menu/breakfast/">breakfast menu</a>
 
 <section class="list">
   <ul>

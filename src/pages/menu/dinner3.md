@@ -22,27 +22,27 @@ layout: menu.ejs
 
 ---
 
-Velout&eacute; of baked Ayrshire potato, aged parmesan, pickled sultana
+Raviolo of wild garlic, aged parmesan
 
 ---
 
-Mallaig shellfish risotto, samphire, grape
+Smoked steel head trout, curried celeriac, grape
 
 *OR*
 
-Shallot tarte tatin, walnut, taleggio
+British asparagus, jersey royals, rhubarb, whey reduction
 
 ---
 
-Twice cooked Scottish pork belly, smoked root champ, apple jus
+Local venison, haggis, wild morels, orange
 
 *OR*
 
-Curried cauliflower, new potato, apple, coriander, dill oil
+Fillet of plaice, cockles, ajo blanco, smoked leeks, sea herb verde
 
 *OR*
 
-Fillet of North Sea hake, new potato, asparagus, sherry butter sauce
+Salt baked turnips, samphire, fregola, herb broth
 
 ---
 
@@ -50,11 +50,11 @@ Fillet of North Sea hake, new potato, asparagus, sherry butter sauce
 
 ---
 
-Warm Banana cake, pistachio, golden syrup tuile
+Brown sugar parfait, poached kiwi, sake
 
 *OR*
 
-Milk chocolate parfait, salt caramel, peanut praline
+Dark chocolate mousse, caramelised banana, peanut praline
 
 ---
 
