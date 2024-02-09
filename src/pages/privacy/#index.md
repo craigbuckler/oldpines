@@ -27,7 +27,7 @@ We promise to:
 
 We collect information for the purposes of booking enquiries and billing only. This includes your name, address, telephone number, email address and payment information as necessary.
 
-No personal information is collected while you browse this website. Cookies and other state retention technologies may be used to gather analytics and store preferences but they are not linked to your personal details and may be safely rejected or deleted.
+No personal information is collected while you browse this website. Cookies and other state retention technologies may be used to store preferences but they are not linked to your personal details and may be safely rejected or deleted.
 
 
 ## Information Access
