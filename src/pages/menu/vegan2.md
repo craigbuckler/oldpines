@@ -14,8 +14,6 @@ layout: menu.ejs
 
 # Vegan Evening Menu
 
-5 courses, £55 per person
-
 ---
 
 *Welcome snacks*
@@ -42,6 +40,8 @@ Oat milk rice pudding, poached pear, puffed rice
 
 ---
 
-*Tea, coffee and petit fours*
+5 courses, £60 per person
+
+*Tea or coffee and handmade petit fours £4.50 per person*
 
 </article>
