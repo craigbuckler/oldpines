@@ -1,7 +1,7 @@
 ---
 title: Book a room
 menu: booking
-description: Book a room for your next vacation at Old Pines Hotel & Restuarant in Spean Bridge, near Fort William and Loch Ness in Scotland.
+description: Book a room for your next vacation at Old Pines Hotel & Restaurant in Spean Bridge, near Fort William and Loch Ness in Scotland.
 layout: booking.ejs
 priority: 0.9
 nomenu: true

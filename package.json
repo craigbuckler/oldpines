@@ -1,6 +1,6 @@
 {
   "name": "oldpines",
-  "version": "1.10.3",
+  "version": "1.10.5",
   "description": "Old Pines Hotel and Restaurant, Spean Bridge, near Fort William, Ben Nevis, and Loch Ness in the highlands of Scotland.",
   "author": "Imogen Dally",
   "main": "gulp build",
@@ -12,8 +12,8 @@
     "topic": "hotel and restaurant",
     "company": "Old Pines Hotel & Restaurant",
     "book": "/rooms/booking/",
-    "voucher": "https://www.itison.com/Edinburgh/deals/old-pines-hotel-nr-fort-william",
-    "vouchertext": "Easter offer",
+    "voucher": "/offer/",
+    "vouchertext": "June offer",
     "twitter": "",
     "font": "",
     "language": "en-GB",
@@ -53,9 +53,9 @@
     "> 2%"
   ],
   "dependencies": {
-    "autoprefixer": "10.4.17",
+    "autoprefixer": "10.4.19",
     "css-mqpacker": "7.0.0",
-    "cssnano": "6.0.3",
+    "cssnano": "7.0.1",
     "del": "6.0.0",
     "gulp": "4.0.2",
     "gulp-concat": "2.6.1",
@@ -71,7 +71,7 @@
     "gulp-terser": "2.1.0",
     "inline-source": "8.0.3",
     "jstransformer-ejs": "0.2.0",
-    "metalsmith": "2.6.2",
+    "metalsmith": "2.6.3",
     "metalsmith-beautify": "0.2.0",
     "metalsmith-html-minifier": "4.0.1",
     "metalsmith-layouts": "2.3.1",
@@ -79,10 +79,10 @@
     "metalsmith-markdown": "1.3.0",
     "metalsmith-publish": "0.1.6",
     "metalsmith-word-count": "0.0.4",
-    "postcss": "8.4.35",
+    "postcss": "8.4.38",
     "postcss-assets": "6.0.0",
-    "postcss-import": "16.0.1",
-    "sass": "1.71.1",
+    "postcss-import": "16.1.0",
+    "sass": "1.77.0",
     "vinyl-ftp": "0.6.1"
   },
   "devDependencies": {

@@ -32,6 +32,7 @@ $redir = array(
 	'tel' 		=> 'contact/',
 	'phone' 	=> 'contact/',
 	'priv' 		=> 'privacy/',
+	'book'		=> 'rooms/booking/',
 
 );
 foreach ($redir as $pold => $pnew) if (strpos($addr, $pold) !== false) $url = '/* @echo rootURL */' . $pnew;

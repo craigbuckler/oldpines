@@ -31,7 +31,7 @@
           <li><a href="[root]contact/" class="button">book a table</a></li>
         <% } %>
 
-        <% if (voucher && vouchertext) { %>
+        <% if (voucher && vouchertext && menu !== 'offer') { %>
           <li><a href="<%- voucher %>" class="button"><%- vouchertext %></a></li>
         <% } %>
 
