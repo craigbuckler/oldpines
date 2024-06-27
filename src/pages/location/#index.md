@@ -1,7 +1,7 @@
 ---
 title: Old Pines Location & Activities
 menu: location
-description: Old Pines is nestled in the heart of the Scottish Highlands close to Ben Nevis and Loch Ness.
+description: Old Pines is nestled in the heart of the Scottish Highlands close to Ben Nevis, Loch Ness, and Fort William.
 quote: A stunning setting with views of Ben Nevis.
 hero:  v1605633718/hero/old-pines-mountain-04
 herop: v1605633718/hero/old-pines-mountain-04-p

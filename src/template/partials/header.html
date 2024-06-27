@@ -23,16 +23,16 @@
 
       <ul>
 
+        <% if (voucher && vouchertext && menu !== 'offer') { %>
+          <li><a href="<%- voucher %>" class="button"><%- vouchertext %></a></li>
+        <% } %>
+
         <% if (menu !== 'restaurant' && menu !== 'menus') { %>
           <li><a href="<%- book %>" class="button">book a room</a></li>
         <% } %>
 
         <% if (menu !== 'rooms') { %>
           <li><a href="[root]contact/" class="button">book a table</a></li>
-        <% } %>
-
-        <% if (voucher && vouchertext) { %>
-          <li><a href="<%- voucher %>" class="button"><%- vouchertext %></a></li>
         <% } %>
 
       </ul>

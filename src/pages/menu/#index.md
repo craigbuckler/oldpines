@@ -9,7 +9,7 @@ private: false
 nomenu: true
 ---
 
-A selection of sample menus serving delicious seasonal food from our restaurant overlooking the Highlands and Ben Nevis mountain range:
+A selection of sample menus serving delicious seasonal food from our restaurant overlooking the Highlands and the Ben Nevis mountain range:
 
 View sample:
 

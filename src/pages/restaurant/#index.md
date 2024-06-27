@@ -1,14 +1,14 @@
 ---
 title: Old Pines Restaurant
 menu: restaurant
-description: Old Pines serves delicious, locally-sourced, fresh and seasonal Scottish food and drink in our restaurant overlooking Highlands.
+description: Old Pines serves delicious, locally-sourced, fresh and seasonal Scottish food and drink in our restaurant overlooking Highlands and Ben Nevis.
 quote: Lovely food and great location. The staff couldn't have done more.
 hero:  v1605633718/hero/old-pines-restaurant-04
 herop: v1605633718/hero/old-pines-restaurant-04-p
 priority: 0.8
 ---
 
-We work closely with a variety of local suppliers to bring you the best seasonal Highland produce, as well as our own homegrown produce from our gardens. As such, our menu changes daily reflecting the season and availability.
+We work closely with a variety of local suppliers to bring you the best seasonal Scottish Highland produce, as well as our own homegrown produce from our gardens. As such, our menu changes daily reflecting the season and availability.
 
 Your menu can be prepared fully gluten free or dairy free on request and we are able to accommodate many other dietary requirements. Please let us know when booking or on arrival and we will do our best to accommodate your specific needs.
 

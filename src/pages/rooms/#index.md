@@ -1,7 +1,7 @@
 ---
 title: Old Pines Hotel Rooms
 menu: rooms
-description: We offer seven restful rooms offering views of Scottish Highlands and Ben Nevis mountain range.
+description: We offer seven restful rooms offering views of Scottish Highlands and the Ben Nevis mountain range.
 quote: Beautiful setting, cosy atmosphere, spotlessly clean, and superb food.
 hero:  v1589283502/hero/old-pines-room-03
 herop: v1589283502/hero/old-pines-room-03-p
@@ -52,7 +52,7 @@ All our rooms offer:
 
 ## Room Facilities
 
-All rooms are decorated in calming, natural colours to compliment the wooded surroundings of the hotel. They have beautiful, en-suite, fully-tiled shower rooms with spacious walk-in cubicles supplied with complimentary toiletries and deep, fluffy towels.
+All rooms are decorated in calming, natural colours to compliment the wooded surroundings of the hotel. They have beautiful, en suite, fully-tiled shower rooms with spacious walk-in cubicles supplied with complimentary toiletries and deep, fluffy towels.
 
 <section class="list">
   <ul>
@@ -70,7 +70,7 @@ Room features:
 
 * child-friendly
 * free parking on the front driveway
-* free wi-fi in your room and throughout the hotel
+* free fast wi-fi in your room and throughout the hotel
 * a direct dial telephone
 * a television with UK Freeview channels
 * tea and coffee-making facilities with a selection of Fairtrade and organic beverages
