@@ -1,5 +1,5 @@
 ---
-title: Ken and Imogen's 20th Anniversary
+title: Midseason Sale
 menu: offer
 description: The latest offers and promotions at Old Pines Hotel and Restaurant in the Scottish Highlands.
 hero:  v1605633718/hero/old-pines-drive
@@ -8,14 +8,13 @@ priority: 0.1
 nomenu: true
 ---
 
-To celebrate Ken and Imogen's 20th anniversary of owning Old Pines Hotel &amp; Restaurant, we are offering a two-person two night break for &pound;450 in June 2024. This includes:
+We are reducing our last few rooms available in July 2024:
 
-* afternoon tea and scones on arrival
-* a five-course tasting menu, and
-* bed and breakfast for two people.
+* &pound;260 for two people per night
+* &pound;180 for a single occupancy room per night
 
-*This is 25% off the normal price of &pound;600.*
+This includes dinner, bed, and breakfast.
 
-To take advantage of this offer, please <a href="[book]">book your two night dinner, bed, and breakfast break in June 2024</a> and enter the promotional code **JUNE20** to apply the special price.
+To take advantage of this offer, please <a href="[book]">select the dinner, bed, and breakfast rate for any date in July 2024 on our booking system</a>.
 
 <a href="[book]" class="button">book today</a>
