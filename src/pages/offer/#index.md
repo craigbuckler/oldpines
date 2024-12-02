@@ -1,5 +1,5 @@
 ---
-title: October Special Offer
+title: Earlybird 2025 Offer
 menu: offer
 description: The latest offers and promotions at Old Pines Hotel and Restaurant in the Scottish Highlands.
 hero:  v1605633718/hero/old-pines-drive
@@ -8,10 +8,8 @@ priority: 0.1
 nomenu: true
 ---
 
-As we wind down towards the end of the season, this is your last chance to grab a couple of nights at Old Pines this year. We are offering you a special deal _"Book one night and get the second night half price"_ on stays of two nights from 1st to 24th October 2024.
+As we gear up for the new season, we are offering you the chance to book early and save.
 
-The normal rate is &pound;280 per night, so the total price for two nights is &pound;420 for two people sharing a double, twin, or family room. This includes a five-course dinner on both evenings and tea/scones on arrival.
-
-Please enter the promotional code **OCT24** when booking...
+Book before 1 February 2025 and receive 10% off your booking for any date in 2025. Please enter the promotional code **EARLY2025** when booking...
 
 <a href="[book]" class="button">book today</a>

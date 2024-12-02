@@ -1,5 +1,7 @@
 // form styling
-$field-back: lighten($green-lite, 40%);
+@use 'sass:color';
+
+$field-back: color.adjust($green-lite, $lightness: 40%);
 $field-outr: $grey-main;
 $field-hint: $color-logo;
 $field-help: #c00;
